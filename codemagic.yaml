@@ -24,9 +24,10 @@ workflows:
         script: flutter config --no-enable-swift-package-manager || true
       - name: Pub get
         script: flutter pub get
-      - name: CocoaPods install
+      - name: CocoaPods install (clean)
         script: |
           cd ios
+          rm -rf Pods Podfile.lock
           pod install
       - name: Build iOS (unsigned release)
         script: |
