@@ -1,0 +1,248 @@
+{
+  "id": "ir_humanitarian_parole",
+  "icon": "shield",
+  "color": "#E64A19",
+  "kind": "iranian",
+  "name": {
+    "fa": "Humanitarian Parole",
+    "en": "Humanitarian Parole"
+  },
+  "title": {
+    "fa": "Humanitarian Parole — ورود موقت بشردوستانه",
+    "en": "Humanitarian Parole — Temporary Humanitarian Entry"
+  },
+  "description": {
+    "fa": "Humanitarian Parole — ورود موقت بشردوستانه\nبرای شرایطی که دلیل بشردوستانه فوری یا منفعت عمومی قابل توجه وجود داشته باشد.",
+    "en": "Humanitarian Parole — Temporary Humanitarian Entry\nFor situations with an urgent humanitarian reason or a significant public benefit."
+  },
+  "stepCount": 13,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "Humanitarian Parole — ورود موقت بشردوستانه\nبرای شرایطی که دلیل بشردوستانه فوری یا منفعت عمومی قابل توجه وجود داشته باشد.",
+        "en": "Humanitarian Parole — Temporary Humanitarian Entry\nFor situations with an urgent humanitarian reason or a significant public benefit."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "بررسی دلیل",
+        "en": "Evaluating the Reason"
+      },
+      "body": {
+        "fa": "فوریت و ماهیت بشردوستانه یا منفعت عمومی بررسی می‌شود.",
+        "en": "The urgency, the humanitarian nature, or the public benefit is reviewed."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "مدارک حمایتی",
+        "en": "Supporting Documents"
+      },
+      "body": {
+        "fa": "شرح وضعیت، اسناد و مدارک پشتیبان آماده می‌شود.",
+        "en": "A description of the situation, records, and supporting documents are prepared."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "ثبت درخواست",
+        "en": "Filing the Application"
+      },
+      "body": {
+        "fa": "درخواست به مسیر مربوط ارائه می‌شود.",
+        "en": "The application is submitted through the relevant route."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "بررسی اولیه",
+        "en": "Initial Review"
+      },
+      "body": {
+        "fa": "کامل بودن و مبنای درخواست بررسی می‌شود.",
+        "en": "The completeness and the basis of the request are reviewed."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "بررسی‌های امنیتی",
+        "en": "Security Checks"
+      },
+      "body": {
+        "fa": "بررسی‌های لازم انجام می‌شود.",
+        "en": "The required checks are carried out."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "مدارک بیشتر",
+        "en": "Additional Documents"
+      },
+      "body": {
+        "fa": "در صورت درخواست، اطلاعات تکمیلی ارائه می‌شود.",
+        "en": "If requested, supplementary information is provided."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تصمیم",
+        "en": "Decision"
+      },
+      "body": {
+        "fa": "درخواست می‌تواند تأیید یا رد شود.",
+        "en": "The application can be approved or denied."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "در صورت تأیید",
+        "en": "If Approved"
+      },
+      "body": {
+        "fa": "مراحل سفر و ورود طبق شرایط مجوز انجام می‌شود.",
+        "en": "The travel and entry steps are completed according to the conditions of the parole."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "پس از ورود",
+        "en": "After Entry"
+      },
+      "body": {
+        "fa": "شخص باید شرایط و مدت parole را رعایت کند.",
+        "en": "The person must comply with the conditions and the duration of the parole."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحلهٔ ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "مسیر بعدی",
+        "en": "Next Pathway"
+      },
+      "body": {
+        "fa": "Parole خودبه‌خود ویزای مهاجرتی یا اقامت دائم نیست؛ برای هر مسیر بعدی باید مبنای مستقل قانونی وجود داشته باشد.",
+        "en": "Parole by itself is not an immigrant visa or permanent residence; any later pathway requires its own independent lawful basis."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحلهٔ ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "درخواست می‌تواند تأیید یا رد شود.",
+        "en": "The application can be approved or denied."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ]
+}

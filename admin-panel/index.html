@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Afghan in USA — Admin Panel</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { font-family: Tahoma, "Segoe UI", sans-serif; margin: 0; background: #f2f4f8; color: #1d2430; }
+  header { background: #1E88E5; color: #fff; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 18px; margin: 0; }
+  main { max-width: 900px; margin: 0 auto; padding: 18px; }
+  .card { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  label { display: block; font-size: 13px; margin: 10px 0 4px; color: #52607a; }
+  input[type=text], input[type=password], input[type=url], textarea, select { width: 100%; padding: 9px 10px; border: 1px solid #c8d0dd; border-radius: 8px; font: inherit; }
+  textarea { min-height: 70px; resize: vertical; }
+  button { font: inherit; border: 0; border-radius: 8px; padding: 9px 16px; cursor: pointer; background: #1E88E5; color: #fff; margin: 6px 4px 0 0; }
+  button.secondary { background: #e7ecf4; color: #1d2430; }
+  button.danger { background: #d9483f; }
+  button:disabled { opacity: .55; cursor: default; }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .row > div { flex: 1; min-width: 220px; }
+  .status { font-size: 13px; color: #52607a; }
+  .error { color: #c62828; font-size: 13px; white-space: pre-wrap; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: right; padding: 8px 6px; border-bottom: 1px solid #e5eaf2; vertical-align: top; }
+  .badge { padding: 2px 8px; border-radius: 10px; font-size: 12px; }
+  .published { background: #dcf3e3; color: #1d7a3d; }
+  .draft { background: #fdeeca; color: #9a6b0b; }
+  .archived { background: #eceff3; color: #5b6472; }
+  .hidden { display: none; }
+  img.thumb { width: 56px; height: 40px; object-fit: cover; border-radius: 6px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Afghan in USA — پنل مدیریت</h1>
+  <div>
+    <span id="userLabel" class="status"></span>
+    <button id="logoutBtn" class="secondary hidden">خروج</button>
+  </div>
+</header>
+<main>
+
+  <!-- 1) Configuration: only the publishable (anon) key belongs here. -->
+  <section id="setupCard" class="card">
+    <h2>اتصال به Supabase</h2>
+    <div class="row">
+      <div>
+        <label>Supabase Project URL</label>
+        <input id="cfgUrl" type="url" placeholder="https://xxxx.supabase.co">
+      </div>
+      <div>
+        <label>Publishable Key (anon / sb_publishable_…)</label>
+        <input id="cfgKey" type="password" placeholder="sb_publishable_… یا eyJhbGci…">
+      </div>
+    </div>
+    <p class="error">هرگز Service Role / Secret Key را اینجا وارد نکنید. فقط کلید عمومی (Publishable) امن است.</p>
+    <button id="saveCfg">ذخیره و ورود با Google</button>
+  </section>
+
+  <!-- 2) Admin-only area -->
+  <div id="panel" class="hidden">
+
+    <section class="card">
+      <h2>اخبار</h2>
+      <button id="newNews">+ خبر جدید</button>
+      <div id="newsError" class="error"></div>
+      <table id="newsTable">
+        <thead><tr><th>عنوان</th><th>تصویر</th><th>دسته</th><th>وضعیت</th><th>ویژه</th><th>عملیات</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>اعلان عمومی</h2>
+      <p class="status">برای تمام کاربران اپلیکیشن نمایش داده می‌شود.</p>
+      <div class="row">
+        <div><label>عنوان فارسی *</label><input id="pubTitleFa" type="text"></div>
+        <div><label>English title</label><input id="pubTitleEn" type="text"></div>
+      </div>
+      <label>متن فارسی *</label><textarea id="pubBodyFa"></textarea>
+      <label>English message</label><textarea id="pubBodyEn"></textarea>
+      <div id="pubError" class="error"></div>
+      <button id="sendPublic">انتشار اعلان عمومی</button>
+    </section>
+
+    <section class="card">
+      <h2>اعلان ویژه پرونده</h2>
+      <p class="status">فقط به کاربرانی می‌رسد که زنگوله همان پرونده را فعال کرده‌اند.</p>
+      <label>پرونده هدف</label>
+      <select id="caseSelect"></select>
+      <div class="row">
+        <div><label>عنوان فارسی *</label><input id="caseTitleFa" type="text"></div>
+        <div><label>English title</label><input id="caseTitleEn" type="text"></div>
+      </div>
+      <label>متن فارسی *</label><textarea id="caseBodyFa"></textarea>
+      <label>English message</label><textarea id="caseBodyEn"></textarea>
+      <div id="caseError" class="error"></div>
+      <button id="sendCase">ارسال به مشترکان پرونده</button>
+    </section>
+
+  </div>
+
+  <!-- News editor dialog -->
+  <div id="editorOverlay" class="hidden" style="position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9;overflow:auto;">
+    <div class="card" style="max-width:700px;margin:40px auto;">
+      <h2 id="editorTitle">خبر جدید</h2>
+      <div class="row">
+        <div><label>عنوان فارسی *</label><input id="eTitleFa" type="text"></div>
+        <div><label>English title</label><input id="eTitleEn" type="text"></div>
+      </div>
+      <div class="row">
+        <div><label>خلاصه فارسی *</label><textarea id="eSummaryFa"></textarea></div>
+        <div><label>English summary</label><textarea id="eSummaryEn"></textarea></div>
+      </div>
+      <label>متن خبر فارسی (پاراگراف‌ها با خط خالی جدا شوند)</label><textarea id="eContentFa" style="min-height:120px"></textarea>
+      <label>English content</label><textarea id="eContentEn" style="min-height:120px"></textarea>
+      <div class="row">
+        <div><label>دسته (مثلاً general، siv، ir_f1_f2)</label><input id="eCategory" type="text" value="general"></div>
+        <div><label>منبع</label><input id="eSource" type="text"></div>
+        <div><label>لینک منبع</label><input id="eSourceUrl" type="text"></div>
+      </div>
+      <label>تصویر</label>
+      <input id="eImage" type="file" accept="image/png,image/jpeg">
+      <p class="status" id="eImageStatus">تصویری انتخاب نشده</p>
+      <label style="display:flex;align-items:center;gap:8px;"><input id="eFeatured" type="checkbox"> خبر ویژه (Featured)</label>
+      <div id="editorError" class="error"></div>
+      <button id="eSave" disabled>در حال آماده‌سازی…</button>
+      <button id="eCancel" class="secondary">انصراف</button>
+    </div>
+  </div>
+
+  <div id="accessDenied" class="card hidden">
+    <h2>دسترسی غیرمجاز</h2>
+    <p>حساب شما در فهرست مدیران (public.admin_users) نیست. UUID حساب پس از ورود در کنسول نمایش داده می‌شود؛ مدیر پایگاه داده باید آن را به جدول admin_users اضافه کند.</p>
+    <p class="status" id="deniedId"></p>
+  </div>
+</main>
+
+<script>
+// The two case sections of the app. Iranian rows carry kind='iranian' and the
+// ir_ id prefix, exactly like the Flutter assets.
+const CASES = [{"id":"siv","kind":"afghan","fa":"SIV","en":"SIV"},{"id":"p1","kind":"afghan","fa":"P-1","en":"P-1"},{"id":"p2","kind":"afghan","fa":"P-2","en":"P-2"},{"id":"i730","kind":"afghan","fa":"I-730 (پیوستن خانواده)","en":"I-730 (Family Reunification)"},{"id":"parole","kind":"afghan","fa":"پارول بشردوستانه","en":"Humanitarian Parole"},{"id":"re_parole","kind":"afghan","fa":"تمدید پارول (Re-Parole)","en":"Re-Parole"},{"id":"dv_lottery","kind":"afghan","fa":"لاتری DV","en":"DV Lottery"},{"id":"sponsor_citizen","kind":"afghan","fa":"اسپانسری توسط شهروند آمریکا","en":"Sponsorship by U.S. Citizen"},{"id":"sponsor_greencard","kind":"afghan","fa":"اسپانسری گرین‌کارت / SIV","en":"Sponsorship by Green Card / SIV"},{"id":"k1","kind":"afghan","fa":"ویزای K-1 (نامزد)","en":"K-1 Fiancé(e) Visa"},{"id":"cr1","kind":"afghan","fa":"ویزای CR-1 (همسر)","en":"CR-1 Spouse Visa"},{"id":"lautenberg","kind":"afghan","fa":"اصلاحیه Lautenberg","en":"Lautenberg Amendment"},{"id":"scholarship","kind":"afghan","fa":"بورسیه تحصیلی در آمریکا","en":"Scholarships in the U.S."},{"id":"ir_b1_b2","kind":"iranian","fa":"B-1 / B-2","en":"B-1 / B-2"},{"id":"ir_f1_f2","kind":"iranian","fa":"F-1 / F-2","en":"F-1 / F-2"},{"id":"ir_j1_j2","kind":"iranian","fa":"J-1 / J-2","en":"J-1 / J-2"},{"id":"ir_m1_m2","kind":"iranian","fa":"M-1 / M-2","en":"M-1 / M-2"},{"id":"ir_h1b_h4","kind":"iranian","fa":"H-1B / H-4","en":"H-1B / H-4"},{"id":"ir_l1_l2","kind":"iranian","fa":"L-1 / L-2","en":"L-1 / L-2"},{"id":"ir_o","kind":"iranian","fa":"O","en":"O Visa"},{"id":"ir_p_q_r","kind":"iranian","fa":"P / Q / R","en":"P / Q / R Visas"},{"id":"ir_c1_d","kind":"iranian","fa":"C-1 / D","en":"C-1 / D"},{"id":"ir_k1","kind":"iranian","fa":"K-1","en":"K-1"},{"id":"ir_immediate_relatives","kind":"iranian","fa":"IR-1 / CR-1 / IR-2 / CR-2 / IR-5","en":"Immediate Relatives (IR)"},{"id":"ir_family_preference","kind":"iranian","fa":"F1 / F2A / F2B / F3 / F4","en":"Family Preference"},{"id":"ir_employment_based","kind":"iranian","fa":"EB-1 / EB-2 / EB-3","en":"Employment Based"},{"id":"ir_eb4_eb5","kind":"iranian","fa":"EB-4 / EB-5","en":"EB-4 / EB-5"},{"id":"ir_adjustment_of_status","kind":"iranian","fa":"Adjustment of Status","en":"Adjustment of Status"},{"id":"ir_t_u","kind":"iranian","fa":"T / U","en":"T / U Visas"},{"id":"ir_humanitarian_parole","kind":"iranian","fa":"Humanitarian Parole","en":"Humanitarian Parole"}];
+const DEFAULT_PUBLISHER_ID = '00000000-0000-0000-0000-000000000001';
+
+let sb = null;
+let editingId = null;
+let editingImageUrl = '';
+
+const $ = (id) => document.getElementById(id);
+
+function saveCfg() {
+  const url = $('cfgUrl').value.trim().replace(/\/+$/, '');
+  const key = $('cfgKey').value.trim();
+  if (!url || !key) { alert('URL و کلید عمومی را وارد کنید.'); return; }
+  if (/service_role|secret/i.test(key)) { alert('این کلید Service Role است و نباید در مرورگر استفاده شود.'); return; }
+  localStorage.setItem('admin_sb_url', url);
+  localStorage.setItem('admin_sb_key', key);
+  sb = window.supabase.createClient(url, key);
+  signIn();
+}
+
+async function signIn() {
+  await sb.auth.signInWithOAuth({ provider: 'google',
+    options: { redirectTo: window.location.href.split('#')[0] } });
+}
+
+async function afterAuth() {
+  const { data: { session } } = await sb.auth.getSession();
+  if (!session) return;
+  $('setupCard').classList.add('hidden');
+  $('logoutBtn').classList.remove('hidden');
+  $('userLabel').textContent = session.user.email || '';
+  const { data: admin, error } = await sb.from('admin_users')
+    .select('user_id').eq('user_id', session.user.id).maybeSingle();
+  if (error) { showDenied(session.user.id, error.message); return; }
+  if (!admin) { showDenied(session.user.id, ''); return; }
+  $('panel').classList.remove('hidden');
+  loadNews();
+}
+
+function showDenied(userId, message) {
+  $('accessDenied').classList.remove('hidden');
+  $('deniedId').textContent = 'User ID: ' + userId + (message ? ' — ' + message : '');
+}
+
+async function loadNews() {
+  const { data, error } = await sb.from('news')
+    .select('id,title_fa,title_en,category_id,status,featured,image_url')
+    .order('created_at', { ascending: false });
+  const tbody = $('newsTable').querySelector('tbody');
+  tbody.innerHTML = '';
+  if (error) { $('newsError').textContent = error.message; return; }
+  $('newsError').textContent = '';
+  for (const n of data) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${escapeHtml(n.title_fa || n.title_en || n.id)}</td>
+      <td>${n.image_url ? `<img class="thumb" src="${escapeHtml(n.image_url)}">` : '—'}</td>
+      <td>${escapeHtml(n.category_id)}</td>
+      <td><span class="badge ${n.status}">${n.status}</span></td>
+      <td>${n.featured ? '★' : ''}</td>
+      <td>
+        <button data-act="edit">ویرایش</button>
+        <button data-act="toggle" class="secondary">${n.status === 'published' ? 'لغو انتشار' : 'انتشار'}</button>
+        <button data-act="feature" class="secondary">${n.featured ? 'حذف ویژه' : 'ویژه'}</button>
+        <button data-act="delete" class="danger">حذف</button>
+      </td>`;
+    tr.querySelectorAll('button').forEach((b) =>
+      b.addEventListener('click', () => act(n, b.dataset.act)));
+    tbody.appendChild(tr);
+  }
+}
+
+async function act(newsItem, action) {
+  if (action === 'edit') { openEditor(newsItem); return; }
+  if (action === 'delete' && !confirm('این خبر حذف شود؟')) return;
+  const patch = action === 'toggle'
+    ? { status: newsItem.status === 'published' ? 'draft' : 'published',
+        published_at: newsItem.status === 'published' ? null : new Date().toISOString() }
+    : action === 'feature'
+      ? { featured: !newsItem.featured } : null;
+  if (action === 'delete') {
+    const { error } = await sb.from('news').delete().eq('id', newsItem.id);
+    if (error) alert(error.message);
+  } else if (patch) {
+    const { error } = await sb.from('news').update(patch).eq('id', newsItem.id);
+    if (error) alert(error.message);
+  }
+  loadNews();
+}
+
+function openEditor(existing) {
+  editingId = existing ? existing.id : null;
+  editingImageUrl = existing ? (existing.image_url || '') : '';
+  $('editorTitle').textContent = existing ? 'ویرایش خبر' : 'خبر جدید';
+  $('eImageStatus').textContent = editingImageUrl ? 'تصویر قبلی حفظ می‌شود' : 'تصویری انتخاب نشده';
+  $('editorOverlay').classList.remove('hidden');
+  if (existing) {
+    sb.from('news').select('*').eq('id', existing.id).single().then(({ data }) => {
+      $('eTitleFa').value = data.title_fa || '';
+      $('eTitleEn').value = data.title_en || '';
+      $('eSummaryFa').value = data.summary_fa || '';
+      $('eSummaryEn').value = data.summary_en || '';
+      $('eContentFa').value = joinParagraphs(data.content_fa);
+      $('eContentEn').value = joinParagraphs(data.content_en);
+      $('eCategory').value = data.category_id || 'general';
+      $('eSource').value = data.source || '';
+      $('eSourceUrl').value = data.source_url || '';
+      $('eFeatured').checked = !!data.featured;
+      $('eSave').disabled = false;
+      $('eSave').textContent = 'ذخیره';
+    });
+  } else {
+    ['eTitleFa','eTitleEn','eSummaryFa','eSummaryEn','eContentFa','eContentEn','eSource','eSourceUrl']
+      .forEach((id) => { $(id).value = ''; });
+    $('eCategory').value = 'general';
+    $('eFeatured').checked = false;
+    $('eSave').disabled = false;
+    $('eSave').textContent = 'ذخیره و انتشار';
+  }
+}
+
+function joinParagraphs(value) {
+  return Array.isArray(value) ? value.join('\n\n') : (value || '');
+}
+
+function paragraphs(text) {
+  return text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+}
+
+function makeSlug(title) {
+  const base = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  const suffix = Date.now().toString();
+  const slug = base ? base + '-' + suffix : 'news-' + suffix;
+  return slug.length > 80 ? slug.slice(0, 80).replace(/-+$/, '') : slug;
+}
+
+async function saveEditor() {
+  const row = {
+    category_id: $('eCategory').value.trim() || 'general',
+    title_fa: $('eTitleFa').value.trim(),
+    title_en: $('eTitleEn').value.trim(),
+    summary_fa: $('eSummaryFa').value.trim(),
+    summary_en: $('eSummaryEn').value.trim(),
+    content_fa: paragraphs($('eContentFa').value),
+    content_en: paragraphs($('eContentEn').value),
+    source: $('eSource').value.trim(),
+    source_url: $('eSourceUrl').value.trim(),
+    featured: $('eFeatured').checked,
+    image_url: editingImageUrl,
+  };
+  if (!row.title_fa || !row.summary_fa) {
+    $('editorError').textContent = 'عنوان فارسی و خلاصه فارسی الزامی است.';
+    return;
+  }
+  $('eSave').disabled = true;
+  $('editorError').textContent = '';
+  try {
+    if (editingId) {
+      const { error } = await sb.from('news').update(row).eq('id', editingId);
+      if (error) throw error;
+    } else {
+      const insert = Object.assign(row, {
+        slug: makeSlug(row.title_en || row.title_fa),
+        publisher_id: DEFAULT_PUBLISHER_ID,
+        date_iso: new Date().toISOString().slice(0, 10),
+        status: 'published',
+        published_at: new Date().toISOString(),
+      });
+      const { error } = await sb.from('news').insert(insert);
+      if (error) throw error;
+    }
+    $('editorOverlay').classList.add('hidden');
+    loadNews();
+  } catch (e) {
+    $('editorError').textContent = e.message;
+  } finally {
+    $('eSave').disabled = false;
+  }
+}
+
+async function sendPublic() {
+  const title_fa = $('pubTitleFa').value.trim();
+  const body_fa = $('pubBodyFa').value.trim();
+  if (!title_fa || !body_fa) { $('pubError').textContent = 'عنوان و متن فارسی الزامی است.'; return; }
+  $('pubError').textContent = '';
+  const { error } = await sb.from('public_notifications').insert({
+    title_i18n: { fa: title_fa, en: $('pubTitleEn').value.trim() },
+    body_i18n: { fa: body_fa, en: $('pubBodyEn').value.trim() },
+    data: {},
+    status: 'published',
+    published_at: new Date().toISOString(),
+  });
+  if (error) { $('pubError').textContent = error.message; return; }
+  ['pubTitleFa','pubTitleEn','pubBodyFa','pubBodyEn'].forEach((id) => { $(id).value = ''; });
+  alert('اعلان عمومی منتشر شد.');
+}
+
+async function sendCase() {
+  const opt = $('caseSelect').selectedOptions[0];
+  if (!opt) { $('caseError').textContent = 'یک پرونده انتخاب کنید.'; return; }
+  const title_fa = $('caseTitleFa').value.trim();
+  const body_fa = $('caseBodyFa').value.trim();
+  if (!title_fa || !body_fa) { $('caseError').textContent = 'عنوان و متن فارسی الزامی است.'; return; }
+  $('caseError').textContent = '';
+  const { data, error } = await sb.rpc('notify_case_subscribers', {
+    p_case_id: opt.dataset.id,
+    p_case_type: opt.dataset.kind,
+    p_title_i18n: { fa: title_fa, en: $('caseTitleEn').value.trim() },
+    p_body_i18n: { fa: body_fa, en: $('caseBodyEn').value.trim() },
+    p_data: { case_id: opt.dataset.id },
+  });
+  if (error) { $('caseError').textContent = error.message; return; }
+  ['caseTitleFa','caseTitleEn','caseBodyFa','caseBodyEn'].forEach((id) => { $(id).value = ''; });
+  alert('اعلان برای ' + data + ' مشترک ارسال شد.');
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) =>
+    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+async function onImageChosen() {
+  const file = $('eImage').files[0];
+  if (!file) return;
+  $('eImageStatus').textContent = 'در حال بارگذاری تصویر…';
+  const path = 'news/' + Date.now() + '_' + file.name.replace(/[^A-Za-z0-9._-]/g, '_');
+  const { error } = await sb.storage.from('app-assets').upload(path, file, {
+    contentType: file.type, upsert: false });
+  if (error) { $('eImageStatus').textContent = 'خطا: ' + error.message; return; }
+  const { data } = sb.storage.from('app-assets').getPublicUrl(path);
+  editingImageUrl = data.publicUrl;
+  $('eImageStatus').textContent = 'تصویر آپلود شد ✓';
+}
+
+function initCaseSelect() {
+  for (const c of CASES) {
+    const opt = document.createElement('option');
+    opt.value = c.id;
+    opt.dataset.id = c.id;
+    opt.dataset.kind = c.kind;
+    opt.textContent = (c.kind === 'iranian' ? '[ایرانی] ' : '[افغانی] ') + (c.fa || c.en || c.id);
+    $('caseSelect').appendChild(opt);
+  }
+}
+
+function logout() { sb.auth.signOut().then(() => window.location.reload()); }
+
+document.addEventListener('DOMContentLoaded', () => {
+  $('cfgUrl').value = localStorage.getItem('admin_sb_url') || '';
+  $('cfgKey').value = localStorage.getItem('admin_sb_key') || '';
+  const url = localStorage.getItem('admin_sb_url');
+  const key = localStorage.getItem('admin_sb_key');
+  if (url && key) sb = window.supabase.createClient(url, key);
+  $('saveCfg').addEventListener('click', saveCfg);
+  $('logoutBtn').addEventListener('click', logout);
+  $('newNews').addEventListener('click', () => openEditor(null));
+  $('eCancel').addEventListener('click', () => $('editorOverlay').classList.add('hidden'));
+  $('eSave').addEventListener('click', saveEditor);
+  $('eImage').addEventListener('change', onImageChosen);
+  $('sendPublic').addEventListener('click', sendPublic);
+  $('sendCase').addEventListener('click', sendCase);
+  initCaseSelect();
+  if (sb) afterAuth();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+{
+  "id": "ir_p_q_r",
+  "icon": "handshake",
+  "color": "#EF6C00",
+  "kind": "iranian",
+  "name": {
+    "fa": "P / Q / R",
+    "en": "P / Q / R Visas"
+  },
+  "title": {
+    "fa": "P / Q / R — ورزش، هنر، فرهنگ، مذهب و فعالیت‌های تخصصی",
+    "en": "P / Q / R — Sports, Arts, Culture, Religion, and Specialized Activities"
+  },
+  "description": {
+    "fa": "P / Q / R — ورزش، هنر، فرهنگ، مذهب و فعالیت‌های تخصصی\nمسیر دقیق به نوع فعالیت و دسته قانونی بستگی دارد.",
+    "en": "P / Q / R — Sports, Arts, Culture, Religion, and Specialized Activities\nThe exact route depends on the type of activity and its legal category."
+  },
+  "stepCount": 11,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "P / Q / R — ورزش، هنر، فرهنگ، مذهب و فعالیت‌های تخصصی\nمسیر دقیق به نوع فعالیت و دسته قانونی بستگی دارد.",
+        "en": "P / Q / R — Sports, Arts, Culture, Religion, and Specialized Activities\nThe exact route depends on the type of activity and its legal category."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "تعیین دسته",
+        "en": "Determining the Category"
+      },
+      "body": {
+        "fa": "مشخص شود فعالیت ورزشی، هنری، فرهنگی، مذهبی یا سایر فعالیت‌ها با کدام دسته سازگار است.",
+        "en": "It should be determined which category fits the sporting, artistic, cultural, religious, or other activity."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "حامی یا سازمان",
+        "en": "Sponsor or Organization"
+      },
+      "body": {
+        "fa": "در مسیرهای لازم، حامی/کارفرما یا سازمان مربوط پرونده را آغاز می‌کند.",
+        "en": "Where required, the sponsor, employer, or relevant organization initiates the case."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "بررسی مدارک",
+        "en": "Document Review"
+      },
+      "body": {
+        "fa": "سابقه فعالیت، قرارداد یا دعوت و شواهد صلاحیت بررسی می‌شود.",
+        "en": "The history of the activity, contracts or invitations, and the evidence of eligibility are reviewed."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "مرحله کنسولی",
+        "en": "Consular Stage"
+      },
+      "body": {
+        "fa": "پس از تأیید اولیه، مرحله ویزا دنبال می‌شود.",
+        "en": "After the initial approval, the visa stage is pursued."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "مصاحبه",
+        "en": "Interview"
+      },
+      "body": {
+        "fa": "هدف فعالیت و شرایط برنامه بررسی می‌شود.",
+        "en": "The purpose of the activity and the conditions of the program are reviewed."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "بررسی اداری",
+        "en": "Administrative Processing"
+      },
+      "body": {
+        "fa": "در صورت نیاز مدارک تکمیلی و بررسی اداری انجام می‌شود.",
+        "en": "If needed, supplementary documents and administrative processing follow."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تصمیم",
+        "en": "Decision"
+      },
+      "body": {
+        "fa": "پس از تصمیم، در صورت تأیید ویزا صادر می‌شود.",
+        "en": "After the decision, a visa is issued if the case is approved."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "ورود و فعالیت",
+        "en": "Entry and Activity"
+      },
+      "body": {
+        "fa": "فعالیت باید در محدوده وضعیت صادرشده انجام شود.",
+        "en": "The activity must remain within the scope of the status granted."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "پس از تصمیم، در صورت تأیید ویزا صادر می‌شود.",
+        "en": "After the decision, a visa is issued if the case is approved."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "sponsor_greencard",
+  "icon": "card",
+  "color": "#2E7D32",
+  "name": {
+    "fa": "اسپانسری گرین‌کارت / SIV",
+    "en": "Sponsorship by Green Card / SIV"
+  },
+  "title": {
+    "fa": "مراحل اسپانسری همسر و فرزندان",
+    "en": "Sponsorship of the spouse and children"
+  },
+  "stepCount": 17,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "تعیین وضعیت فرد اصلی",
+        "en": "Determine the status of the main person."
+      },
+      "body": {
+        "fa": "ابتدا مشخص می‌شود فرد اصلی دارای Green Card است یا از طریق SIV وارد آمریکا شده و اکنون دارای وضعیت مهاجرتی مناسب برای درخواست اعضای خانواده است.",
+        "en": "First, it turns out that the main person has Green Card or has entered the United States through SIV, and now has the right immigration status to apply for family members."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "تعیین اعضای واجد شرایط خانواده",
+        "en": "Identifying qualified family members"
+      },
+      "body": {
+        "fa": "رابطه خانوادگی بررسی می‌شود. برای همسر و فرزندان، شرایط و نوع درخواست بر اساس وضعیت مهاجرتی فرد اصلی تعیین می‌شود.",
+        "en": "Family relationship is examined. For your spouse and children, the terms and type of application are determined based on the immigration status of the main person."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک",
+        "en": "Preparing evidence."
+      },
+      "body": {
+        "fa": "مدارک هویتی فرد اصلی و اعضای خانواده، مدارک ازدواج، اسناد تولد فرزندان، پاسپورت و سایر مدارک لازم آماده می‌شود.",
+        "en": "The identity documents of the main person and family members, marriage documents, birth documents of children, passports and other necessary documents are prepared."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "ثبت درخواست خانوادگی",
+        "en": "Family request registration."
+      },
+      "body": {
+        "fa": "فرم و درخواست مناسب بر اساس وضعیت فرد اصلی ثبت می‌شود. در پرونده‌های مربوط به دارنده گرین‌کارت، معمولاً I-130 برای همسر و فرزندان واجد شرایط استفاده می‌شود.",
+        "en": "The appropriate form and application is recorded based on the status of the main person. In Green Card cases, I-130 is usually used for qualified spouses and children."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "دریافت رسید پرونده",
+        "en": "receipt of the case."
+      },
+      "body": {
+        "fa": "پس از ثبت درخواست، رسید پرونده صادر می‌شود و روند بررسی رسمی آغاز می‌گردد.",
+        "en": "After registration, the receipt of the case is issued and the process of the official review begins."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "بررسی پرونده",
+        "en": "Check the case."
+      },
+      "body": {
+        "fa": "مرجع مهاجرتی مدارک و رابطه خانوادگی را بررسی می‌کند و در صورت نیاز ممکن است مدارک یا اطلاعات بیشتری درخواست شود.",
+        "en": "The immigration reference investigates family documents and relationships, and if needed, more documents or information may be requested."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "تأیید درخواست",
+        "en": "Application approval."
+      },
+      "body": {
+        "fa": "پس از تأیید درخواست، پرونده وارد مرحله بعدی روند مهاجرتی می‌شود. تأیید درخواست به‌تنهایی به معنای صدور فوری ویزا نیست.",
+        "en": "After the application is approved, the case enters the next phase of the immigration process. Application approval alone does not mean immediate visa issuance."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "تشکیل پرونده کنسولی",
+        "en": "Creating a consular case."
+      },
+      "body": {
+        "fa": "اگر اعضای خانواده خارج از آمریکا باشند، در صورت فراهم بودن شرایط، پرونده برای ادامه روند به National Visa Center (NVC) منتقل می‌شود.",
+        "en": "If family members are outside the United States, if the conditions are provided, the case is transferred to National Visa Center (NVC)."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تکمیل فرم‌های مهاجرتی",
+        "en": "Completing the immigration forms"
+      },
+      "body": {
+        "fa": "متقاضی فرم‌های مهاجرتی مربوط به پرونده را تکمیل و ارائه می‌کند.",
+        "en": "The applicant completes and submits the immigration forms required for the case."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "حمایت مالی",
+        "en": "Financial support."
+      },
+      "body": {
+        "fa": "در صورت نیاز، فرد اصلی مدارک مربوط به توانایی مالی و فرم Affidavit of Support را ارائه می‌کند.",
+        "en": "If needed, the main person will provide evidence for the financial ability and form of Affidavit of Support."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "بررسی مدارک و پرونده",
+        "en": "Review of documents and records."
+      },
+      "body": {
+        "fa": "NVC و مراجع مربوط مدارک را بررسی می‌کنند و در صورت ناقص بودن پرونده، مدارک تکمیلی درخواست می‌شود.",
+        "en": "NVC and documents are reviewed and, if the case is incomplete, the additional documents are requested."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "معاینات پزشکی",
+        "en": "Medical examinations."
+      },
+      "body": {
+        "fa": "همسر و فرزندان طبق دستور سفارت یا کنسولگری، معاینات پزشکی را نزد پزشک مورد تأیید انجام می‌دهند.",
+        "en": "Spouses and children under the order of the Embassy or consulate perform medical examinations with the doctor approved."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحله ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "مصاحبه",
+        "en": "Interview interview."
+      },
+      "body": {
+        "fa": "اعضای خانواده در زمان تعیین‌شده برای مصاحبه حاضر می‌شوند و افسر کنسولی مدارک و شرایط پرونده را بررسی می‌کند.",
+        "en": "Family members are present at the time specified for the interview and consular officer investigates the documents and conditions of the case."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحله ۱۴",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "بررسی امنیتی و اداری",
+        "en": "Security and administrative review."
+      },
+      "body": {
+        "fa": "در صورت نیاز، پرونده تحت بررسی‌های امنیتی یا Administrative Processing قرار می‌گیرد.",
+        "en": "If needed, the case is under security or Administrative Processing."
+      }
+    },
+    {
+      "index": 15,
+      "label": {
+        "fa": "مرحله ۱۵",
+        "en": "Step 15"
+      },
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final decision."
+      },
+      "body": {
+        "fa": "پس از تکمیل بررسی‌ها، درباره صدور یا عدم صدور ویزا تصمیم‌گیری می‌شود.",
+        "en": "Once the review is completed, the decision is made about the issuance or lack of visa issuance."
+      }
+    },
+    {
+      "index": 16,
+      "label": {
+        "fa": "مرحله ۱۶",
+        "en": "Step 16"
+      },
+      "title": {
+        "fa": "صدور ویزا و سفر",
+        "en": "Visa and Travel"
+      },
+      "body": {
+        "fa": "در صورت تأیید، ویزا صادر می‌شود و همسر و فرزندان می‌توانند طبق شرایط ویزا برای سفر به آمریکا اقدام کنند.",
+        "en": "If approved, the visa is issued and the spouse and children can apply to the United States under visa terms."
+      }
+    },
+    {
+      "index": 17,
+      "label": {
+        "fa": "مرحله ۱۷",
+        "en": "Step 17"
+      },
+      "title": {
+        "fa": "ورود و پیوستن به خانواده",
+        "en": "Enter and join the family."
+      },
+      "body": {
+        "fa": "پس از ورود به آمریکا، اعضای خانواده به فرد اصلی می‌پیوندند و وضعیت مهاجرتی آنان مطابق مسیر پرونده دنبال می‌شود.",
+        "en": "After entering the U.S., family members join the main person and their immigration status follows in accordance with the course of the case."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "فرم‌ها و مدارک",
+        "en": "Forms and documents"
+      },
+      "body": {
+        "fa": "فرم‌های لازم، از جمله DS-260 برای پرونده‌های کنسولی، تکمیل و مدارک مورد نیاز ارائه می‌شود.",
+        "en": "The required forms, including the DS-260 for consular cases, are completed and the required documents are submitted."
+      }
+    }
+  ]
+}

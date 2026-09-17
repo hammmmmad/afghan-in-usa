@@ -1,0 +1,227 @@
+{
+  "id": "dv_lottery",
+  "icon": "diamond",
+  "color": "#FB8C00",
+  "name": {
+    "fa": "لاتری DV",
+    "en": "DV Lottery"
+  },
+  "title": {
+    "fa": "مراحل منظم برنامه DV Lottery آمریکا",
+    "en": "regular U.S. DV lottery program"
+  },
+  "stepCount": 14,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "ثبت‌نام در قرعه‌کشی",
+        "en": "Register in the lottery."
+      },
+      "body": {
+        "fa": "متقاضی در مدت تعیین‌شده توسط وزارت خارجه آمریکا، فرم ثبت‌نام Electronic Diversity Visa (E-DV) را به‌صورت آنلاین تکمیل و ارسال می‌کند.",
+        "en": "The applicant will complete and submit the Electronic Diversity Visa (E-DV) registration form online."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "دریافت شماره تأیید",
+        "en": "Get a confirmation number."
+      },
+      "body": {
+        "fa": "پس از ثبت موفق، متقاضی یک Confirmation Number دریافت می‌کند که برای بررسی نتیجه قرعه‌کشی ضروری است.",
+        "en": "After successful registration, the applicant receives a confirmationation number, which is necessary to examine the result of the lottery."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "اعلام نتایج",
+        "en": "Results"
+      },
+      "body": {
+        "fa": "پس از پایان دوره ثبت‌نام و انجام قرعه‌کشی، متقاضی با استفاده از شماره تأیید، نتیجه خود را از طریق سامانه رسمی Entrant Status Check بررسی می‌کند.",
+        "en": "After the completion of the registration period and completion of the lottery, the applicant will examine their result through the official Entrant Status Check system."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "انتخاب شدن در قرعه‌کشی",
+        "en": "Selecting in the lottery."
+      },
+      "body": {
+        "fa": "اگر متقاضی انتخاب شده باشد، اطلاعات مربوط به ادامه روند در صفحه نتیجه نمایش داده می‌شود. انتخاب شدن به معنای تضمین دریافت ویزا نیست.",
+        "en": "If the applicant is selected, the information about the continuation of the process is displayed on the result page. Selecting does not guarantee a visa."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "تکمیل فرم DS-260",
+        "en": "Form DS-260"
+      },
+      "body": {
+        "fa": "متقاضی منتخب و اعضای واجد شرایط خانواده، در صورت نیاز، فرم DS-260 را تکمیل و اطلاعات لازم را به وزارت خارجه آمریکا ارائه می‌کنند.",
+        "en": "Selected applicants and eligible family members complete the DS-260 form if needed and provide the necessary information to the U.S. Department of State."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک",
+        "en": "Preparing evidence."
+      },
+      "body": {
+        "fa": "متقاضی مدارک هویتی، پاسپورت، اسناد تحصیلی یا سابقه کاری، مدارک خانوادگی و سایر مدارک مورد نیاز را آماده می‌کند.",
+        "en": "The applicant prepares identity documents, passports, scholarships or work history, family documents and other documents required."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "بررسی و پردازش پرونده",
+        "en": "Check and process the case."
+      },
+      "body": {
+        "fa": "پرونده توسط بخش کنسولی وزارت خارجه آمریکا بررسی و برای مراحل بعدی آماده می‌شود.",
+        "en": "The case is reviewed by the U.S. Department of State Consular Section and prepared for the next steps."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "تعیین وقت مصاحبه",
+        "en": "Time of interview"
+      },
+      "body": {
+        "fa": "در صورت آماده بودن پرونده و وجود شماره ویزای قابل استفاده، برای متقاضی وقت مصاحبه در سفارت یا کنسولگری تعیین می‌شود.",
+        "en": "If the case is ready and the availability of the applicable visa number, it is set for the applicant to interview at the embassy or consulate."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "انجام معاینات پزشکی",
+        "en": "Medical examinations."
+      },
+      "body": {
+        "fa": "متقاضی و اعضای خانواده واجد شرایط، طبق دستورالعمل سفارت، معاینات پزشکی را نزد پزشک مورد تأیید انجام می‌دهند.",
+        "en": "The applicant and members of the qualified family conduct medical examinations with the approved doctor according to the Embassy instructions."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "انجام مصاحبه",
+        "en": "Interview."
+      },
+      "body": {
+        "fa": "متقاضی در زمان تعیین‌شده در سفارت یا کنسولگری حاضر می‌شود و مدارک و شرایط پرونده توسط افسر کنسولی بررسی می‌شود.",
+        "en": "The applicant is present at the embassy or consulate at the time and the documents and conditions of the case are reviewed by the consular officer."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "بررسی اداری در صورت نیاز",
+        "en": "Office check if needed."
+      },
+      "body": {
+        "fa": "برخی پرونده‌ها ممکن است پس از مصاحبه وارد Administrative Processing شوند و بررسی‌های بیشتری روی آنها انجام شود.",
+        "en": "Some cases may be entered into Administrative Processing after the interview and more reviews are made."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "تصمیم نهایی درباره ویزا",
+        "en": "Final decision on visa"
+      },
+      "body": {
+        "fa": "پس از تکمیل بررسی‌ها، پرونده ممکن است برای صدور ویزا تأیید شود یا در صورت وجود مشکل قانونی یا شرایط لازم، ویزا صادر نشود.",
+        "en": "Once the review is completed, the case may be approved for visa issuance or not issued a visa if there is a legal problem or requirements."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحله ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "صدور ویزا",
+        "en": "Visa issuance"
+      },
+      "body": {
+        "fa": "در صورت تأیید نهایی، ویزای مهاجرتی DV برای متقاضی و اعضای واجد شرایط خانواده صادر می‌شود.",
+        "en": "In case of a final confirmation, the DV immigrant visa is issued for the applicant and eligible family members."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحله ۱۴",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "سفر به آمریکا",
+        "en": "Travel to America."
+      },
+      "body": {
+        "fa": "پس از دریافت ویزا، متقاضی می‌تواند مطابق اعتبار و شرایط ویزا برای سفر به آمریکا اقدام کند.",
+        "en": "After receiving a visa, the applicant can apply in accordance with the validity and visa requirements for travel to the United States."
+      }
+    }
+  ],
+  "notes": []
+}

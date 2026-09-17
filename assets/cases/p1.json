@@ -1,0 +1,227 @@
+{
+  "id": "p1",
+  "icon": "airplane",
+  "color": "#8E24AA",
+  "name": {
+    "fa": "P-1",
+    "en": "P-1"
+  },
+  "title": {
+    "fa": "مراحل برنامه P-1 برای افغان‌ها",
+    "en": "P-1 Program for Afghans"
+  },
+  "stepCount": 14,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناسایی فرد واجد شرایط",
+        "en": "Identifying a qualified person."
+      },
+      "body": {
+        "fa": "فرد باید شرایط لازم برای ارجاع به برنامه P-1 (Priority 1) را داشته باشد. P-1 معمولاً برای افرادی است که نیاز فوری به اسکان مجدد دارند و می‌توانند توسط نهادهای مجاز برای بررسی در USRAP معرفی شوند.",
+        "en": "The individual must have the requirements for reference to the P-1 program. P-1 is usually for people who need immediate resettlement and can be introduced by authorized institutions to check in USRAP."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "ارجاع به USRAP",
+        "en": "referral to USRAP"
+      },
+      "body": {
+        "fa": "پرونده از طریق یک نهاد یا سازمان مجاز به U.S. Refugee Admissions Program (USRAP) ارجاع می‌شود.",
+        "en": "Case through an entity or organization authorized to U.S. Refugee Admissions Program (USRAP)"
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "تشکیل پرونده",
+        "en": "Form the case."
+      },
+      "body": {
+        "fa": "اطلاعات هویتی متقاضی و اعضای خانواده جمع‌آوری و پرونده برای بررسی در سیستم مربوط ثبت می‌شود.",
+        "en": "The identification information of the applicant and family members is collected and the case is recorded for examination in the relevant system."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "بررسی اولیه",
+        "en": "Early review."
+      },
+      "body": {
+        "fa": "اطلاعات و شرایط متقاضی بررسی می‌شود تا مشخص شود پرونده واجد شرایط ادامه روند USRAP است یا خیر.",
+        "en": "The applicant’s information and conditions are reviewed to determine if the file is eligible to continue the USRAP process."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "ارائه و بررسی مدارک",
+        "en": "Presentation and review of documents."
+      },
+      "body": {
+        "fa": "مدارک هویتی، خانوادگی و سایر اسناد مرتبط با شرایط پرونده بررسی می‌شود.",
+        "en": "Identity, family and other documents related to the case conditions are reviewed."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "بررسی‌های امنیتی",
+        "en": "Security reviews."
+      },
+      "body": {
+        "fa": "متقاضی و اعضای واجد شرایط خانواده تحت بررسی‌های امنیتی و سوابق قرار می‌گیرند.",
+        "en": "The applicant and family members are subject to security checks and records."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "بیومتریک",
+        "en": "biometrics."
+      },
+      "body": {
+        "fa": "در صورت درخواست، متقاضی و اعضای خانواده مراحل بیومتریک مانند انگشت‌نگاری و عکس را انجام می‌دهند.",
+        "en": "If requested, applicants and family members perform biometric procedures such as fingerography and photographs."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "مصاحبه پناهندگی",
+        "en": "Refugee interview."
+      },
+      "body": {
+        "fa": "متقاضی برای مصاحبه دعوت می‌شود. در این مرحله، هویت، سوابق، شرایط زندگی و دلایل درخواست اسکان مجدد بررسی می‌شود.",
+        "en": "The applicant is invited for the interview. At this stage, identity, records, living conditions and the reasons for resettlement application are reviewed."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "بررسی‌های تکمیلی",
+        "en": "Graduate reviews."
+      },
+      "body": {
+        "fa": "در صورت نیاز، ممکن است مدارک بیشتر یا اطلاعات اضافی درخواست شود و بررسی‌های امنیتی و اداری ادامه پیدا کند.",
+        "en": "If needed, additional documents or information may be requested and security and administrative reviews continue."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "معاینات پزشکی",
+        "en": "Medical examinations."
+      },
+      "body": {
+        "fa": "در صورت رسیدن پرونده به مرحله مربوط، متقاضی و اعضای واجد شرایط خانواده معاینات پزشکی مورد نیاز را انجام می‌دهند.",
+        "en": "If the case is reached to the relevant stage, the applicant and the qualified family perform the required medical examinations."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "تصمیم درباره پرونده",
+        "en": "Decision on the case."
+      },
+      "body": {
+        "fa": "پس از تکمیل بررسی‌ها، درباره واجد شرایط بودن متقاضی برای پذیرش در برنامه پناهندگان تصمیم‌گیری می‌شود.",
+        "en": "Upon completion of the review, the applicant’s eligibility for admission in the refugee program is decided."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "آماده‌سازی اسکان مجدد",
+        "en": "Ready for resettlement."
+      },
+      "body": {
+        "fa": "در صورت تأیید، پرونده برای مراحل اسکان مجدد در آمریکا آماده می‌شود و هماهنگی‌های مربوط به اسکان انجام می‌گیرد.",
+        "en": "If confirmed, the case is prepared for resettlement procedures in the United States and the coordination of housing is performed."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحله ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "هماهنگی سفر",
+        "en": "Coordinated travel."
+      },
+      "body": {
+        "fa": "پس از تکمیل الزامات لازم، روند هماهنگی سفر و انتقال متقاضی و اعضای واجد شرایط خانواده انجام می‌شود.",
+        "en": "After completing the necessary requirements, the travel coordination process and transfer of the applicant and qualified family members are performed."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحله ۱۴",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "ورود به آمریکا",
+        "en": "Entering America."
+      },
+      "body": {
+        "fa": "پس از ورود به آمریکا، فرد و خانواده طبق برنامه اسکان مجدد، روند استقرار و دریافت خدمات اولیه را آغاز می‌کنند.",
+        "en": "After entering the United States, the individual and the family begin the process of establishing and receiving basic services according to the resettlement program."
+      }
+    }
+  ],
+  "notes": []
+}

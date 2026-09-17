@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "318374626413",
+    "project_id": "afghan-in-usa",
+    "storage_bucket": "afghan-in-usa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318374626413:android:6e2287335824c80052ab64",
+        "android_client_info": {
+          "package_name": "com.afghan_in_usa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318374626413-c7cv56jq75ml40g3klskll7tnd87rspe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afghan_in_usa",
+            "certificate_hash": "14e50d6ada61d4146c4ff0f01b539812edfb429f"
+          }
+        },
+        {
+          "client_id": "318374626413-dkfd028029ja34lfg2q8i7rvbqdf5d0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afghan_in_usa",
+            "certificate_hash": "cd78901acf71f3908fbd0fcec2b9264015edfd4d"
+          }
+        },
+        {
+          "client_id": "318374626413-r3rbfcv35b7953rv086ic61fukf7bphe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6oG36vr7d4snAFIV0x95aq02pNGvdul0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318374626413-r3rbfcv35b7953rv086ic61fukf7bphe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

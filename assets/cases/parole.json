@@ -1,0 +1,197 @@
+{
+  "id": "parole",
+  "icon": "heart",
+  "color": "#E53935",
+  "name": {
+    "fa": "پارول بشردوستانه",
+    "en": "Humanitarian Parole"
+  },
+  "title": {
+    "fa": "مراحل منظم برنامه Parole برای افغان‌ها",
+    "en": "Regular steps of the Parole Program for Afghans"
+  },
+  "stepCount": 12,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "ثبت درخواست Parole",
+        "en": "Application of Parole"
+      },
+      "body": {
+        "fa": "متقاضی یا فرد حامی، درخواست Parole را طبق مسیر تعیین‌شده به اداره مهاجرت آمریکا (USCIS) ارائه می‌کند.",
+        "en": "The applicant or the sponsor will submit the Parole application under the path set to the U.S. Migration Agency (USCIS)."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "ارسال مدارک",
+        "en": "Send documents."
+      },
+      "body": {
+        "fa": "مدارک هویتی، اطلاعات خانوادگی، مدارک مربوط به شرایط بشردوستانه و سایر اسناد مورد نیاز همراه درخواست ارائه می‌شود.",
+        "en": "Identity documents, family information, evidence of humanitarian conditions and other documents required along with the application."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "دریافت تأییدیه پرونده",
+        "en": "Get a confirmation of the case."
+      },
+      "body": {
+        "fa": "پس از دریافت درخواست، USCIS پرونده را ثبت کرده و شماره رسید یا اطلاعات پیگیری پرونده را ارائه می‌کند.",
+        "en": "After receiving the application, USCIS records the file and submits the number or follow-up information."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "بررسی اولیه USCIS",
+        "en": "Primary review of USCIS"
+      },
+      "body": {
+        "fa": "USCIS درخواست و مدارک ارائه‌شده را بررسی می‌کند و در صورت نیاز ممکن است مدارک یا اطلاعات بیشتری درخواست کند.",
+        "en": "USCIS investigates the application and documents provided and may request additional documents or information if needed."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "بررسی‌های امنیتی",
+        "en": "Security reviews."
+      },
+      "body": {
+        "fa": "اطلاعات متقاضی و اعضای خانواده تحت بررسی‌های امنیتی و سوابق قرار می‌گیرد.",
+        "en": "Applicants’ information and family members are subject to security checks and records."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "بیومتریک",
+        "en": "biometrics."
+      },
+      "body": {
+        "fa": "در صورت درخواست، متقاضی مراحل مربوط به بیومتریک، مانند انگشت‌نگاری و عکس، را انجام می‌دهد.",
+        "en": "In case of request, the applicant will perform stages related to biometrics, such as fingerography and photographs."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "بررسی شرایط بشردوستانه",
+        "en": "Review of Humanitarian Conditions"
+      },
+      "body": {
+        "fa": "USCIS شرایط پرونده، دلایل درخواست Parole و سایر عوامل مربوط را بررسی می‌کند.",
+        "en": "USCIS investigates the case conditions, the reasons for the Parole application and other related factors."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "درخواست مدارک تکمیلی",
+        "en": "Application of Graduate documents"
+      },
+      "body": {
+        "fa": "اگر USCIS به اطلاعات بیشتری نیاز داشته باشد، ممکن است RFE یا درخواست مدارک تکمیلی صادر شود.",
+        "en": "If USCIS needs more information, RFE may be issued or requested for additional documents."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تصمیم درباره Parole",
+        "en": "Decision on Parole"
+      },
+      "body": {
+        "fa": "پس از تکمیل بررسی‌ها، USCIS درباره درخواست تصمیم می‌گیرد؛ درخواست ممکن است تأیید یا رد شود.",
+        "en": "After completing the review, USCIS decides on request; the application may be approved or rejected."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "هماهنگی سفر",
+        "en": "Coordinated travel."
+      },
+      "body": {
+        "fa": "در صورت تأیید، متقاضی باید طبق دستورالعمل پرونده مراحل مربوط به سفر و ورود به آمریکا را انجام دهد.",
+        "en": "In case of approval, the applicant must take steps to travel and enter the United States according to the case."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "ورود به آمریکا",
+        "en": "Entering America."
+      },
+      "body": {
+        "fa": "پس از رسیدن متقاضی به مرز آمریکا، مأموران مربوط شرایط ورود را بررسی می‌کنند و در صورت اجازه ورود، Parole در آمریکا اعطا می‌شود.",
+        "en": "After the applicant reaches the U.S. border, the agents will examine the entry conditions and, if permitted, the Parole is granted in the United States."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "اقدامات پس از ورود",
+        "en": "Actions after arrival."
+      },
+      "body": {
+        "fa": "پس از ورود، فرد باید مطابق شرایط Parole و مدت اعتبار آن، وضعیت خود را مدیریت کند و در صورت واجد شرایط بودن، برای مسیرهای مهاجرتی یا حمایتی دیگر اقدام نماید.",
+        "en": "After arrival, a person must manage their status in accordance with the Parole and its validity period and act for other immigration or support routes if they are eligible."
+      }
+    }
+  ],
+  "notes": []
+}

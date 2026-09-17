@@ -1,0 +1,248 @@
+{
+  "id": "siv",
+  "icon": "shield",
+  "color": "#1E88E5",
+  "name": {
+    "fa": "SIV",
+    "en": "SIV"
+  },
+  "title": {
+    "fa": "مراحل برنامه SIV برای افغان‌ها",
+    "en": "SIV Program for Afghans"
+  },
+  "stepCount": 14,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله اول",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "بررسی شرایط اولیه",
+        "en": "Review of Early Conditions"
+      },
+      "body": {
+        "fa": "متقاضی ابتدا باید بررسی کند که آیا شرایط برنامه SIV را دارد یا خیر. از جمله مهم‌ترین موارد، سابقه کار واجد شرایط برای دولت یا قراردادی مرتبط با دولت آمریکا در افغانستان و داشتن مدارک اثبات‌کننده این سابقه است.",
+        "en": "The applicant must first examine whether or not they have SIV program requirements. Among the most important cases is a qualifying work history for the government or a contract related to the U.S. government in Afghanistan and has proven evidence of this history."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله دوم",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک",
+        "en": "Preparing evidence."
+      },
+      "body": {
+        "fa": "متقاضی باید مدارک مربوط به هویت، پاسپورت، سابقه کاری، قراردادها، توصیه‌نامه و سایر اسناد مورد نیاز پرونده را آماده کند.",
+        "en": "The applicant must prepare documents regarding identity, passport, work history, contracts, recommendation and other documents required by the case."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله سوم",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "درخواست تأیید COM",
+        "en": "Application for confirmation of COM"
+      },
+      "body": {
+        "fa": "در صورت واجد شرایط بودن، درخواست تأیید Chief of Mission یا COM به وزارت خارجه آمریکا ارسال می‌شود. این مرحله برای بسیاری از متقاضیان SIV، یکی از مهم‌ترین مراحل پرونده است.",
+        "en": "In case of qualifying, the request for the Chief confirmation of Mission or COM is submitted to the U.S. Department of State. This stage is one of the most important stages of the case for many SIV applicants."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله چهارم",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "بررسی پرونده توسط COM",
+        "en": "Review of the case by COM"
+      },
+      "body": {
+        "fa": "وزارت خارجه آمریکا مدارک و سابقه کاری متقاضی را بررسی می‌کند. در صورت نیاز ممکن است از متقاضی مدارک یا توضیحات بیشتری درخواست شود.",
+        "en": "The U.S. Department of State investigates the applicant's work history. If needed, the applicant may request more documents or explanations."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله پنجم",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "دریافت تأیید COM",
+        "en": "Accredited by COM"
+      },
+      "body": {
+        "fa": "اگر درخواست پذیرفته شود، متقاضی نامه یا تأییدیه COM دریافت می‌کند و پرونده وارد مرحله بعدی روند مهاجرتی می‌شود.",
+        "en": "If the application is accepted, the applicant receives a letter or COM confirmation and the case enters the next phase of the immigration process."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ششم",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "تشکیل پرونده مهاجرتی",
+        "en": "Establishing an immigrant case."
+      },
+      "body": {
+        "fa": "پس از تأیید COM، روند پرونده مهاجرتی ادامه پیدا می‌کند و بسته به وضعیت پرونده، مراحل مربوط به ثبت و پردازش پرونده در سیستم مهاجرتی آمریکا انجام می‌شود.",
+        "en": "After COM approval, the process of the immigrant file continues and, depending on the case situation, the procedures for filing and processing of the case in the U.S. immigration system."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله هفتم",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "تکمیل فرم‌ها و اسناد مهاجرتی",
+        "en": "Complete forms and immigration documents."
+      },
+      "body": {
+        "fa": "متقاضی و اعضای واجد شرایط خانواده باید فرم‌ها و مدارک مورد نیاز مرحله مهاجرتی را تکمیل و ارائه کنند.",
+        "en": "Applicants and eligible family members must complete and submit the forms and documents required by the immigration phase."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله هشتم",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "بررسی امنیتی و اداری",
+        "en": "Security and administrative review."
+      },
+      "body": {
+        "fa": "پرونده ممکن است تحت بررسی‌های امنیتی و اداری قرار گیرد. این مرحله می‌تواند زمان متفاوتی برای هر پرونده داشته باشد.",
+        "en": "The case may be under security and administrative reviews. This can have a different time for each case."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله نهم",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تعیین محل و زمان مصاحبه",
+        "en": "Location and interview time"
+      },
+      "body": {
+        "fa": "پس از آماده‌شدن پرونده برای مصاحبه، متقاضی بر اساس دستورالعمل پرونده به سفارت یا کنسولگری تعیین‌شده مراجعه می‌کند. برای متقاضیانی که در افغانستان هستند، محل رسیدگی ممکن است خارج از افغانستان باشد.",
+        "en": "After preparing the case for an interview, the applicant visits the designated embassy or consulate based on the case instructions. For applicants in Afghanistan, the workplace may be outside of Afghanistan."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله دهم",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "انجام معاینات پزشکی",
+        "en": "Medical examinations."
+      },
+      "body": {
+        "fa": "قبل از مصاحبه یا طبق دستور سفارت، متقاضی باید معاینات پزشکی را نزد پزشک مورد تأیید انجام دهد.",
+        "en": "Before the interview or under the embassy order, the applicant must conduct medical examinations with the approved doctor."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله یازدهم",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "مصاحبه کنسولی",
+        "en": "A consular interview."
+      },
+      "body": {
+        "fa": "متقاضی در مصاحبه ویزا شرکت می‌کند و افسر کنسولی مدارک، اطلاعات پرونده و شرایط صدور ویزا را بررسی می‌کند.",
+        "en": "The applicant participates in the visa interview and inspects the consular officer of documents, file information and visa issuance conditions."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله دوازدهم",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "بررسی‌های اضافی در صورت نیاز",
+        "en": "Additional reviews if needed"
+      },
+      "body": {
+        "fa": "اگر پرونده نیازمند بررسی بیشتر باشد، ممکن است وارد Administrative Processing شود. در این وضعیت، صدور ویزا تا پایان بررسی‌های لازم به تعویق می‌افتد.",
+        "en": "If the case requires further review, it may be entered Administrative Processing. In this situation, visa issuance is delayed by the end of the necessary reviews."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحله سیزدهم",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "تصمیم نهایی درباره ویزا",
+        "en": "Final decision on visa"
+      },
+      "body": {
+        "fa": "پس از تکمیل بررسی‌ها، پرونده ممکن است:\n- برای صدور ویزا تأیید شود؛\n- برای تکمیل مدارک یا اطلاعات بیشتر به متقاضی بازگردانده شود؛\n- یا در صورت وجود مانع قانونی، رد یا مشمول محدودیت خاصی شود.",
+        "en": "After completing the review, the case may:\nbe approved for visa issuance;\nTo complete more documents or information, the applicant is returned;\nOr, if there is a legal barrier, a refusal or a particular limitation."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحله چهاردهم",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "صدور ویزا و سفر",
+        "en": "Visa and Travel"
+      },
+      "body": {
+        "fa": "در صورت تأیید نهایی، ویزا صادر می‌شود و متقاضی می‌تواند مطابق شرایط و اعتبار ویزا برای سفر به آمریکا اقدام کند.",
+        "en": "In case of a final confirmation, the visa is issued and the applicant can apply to the United States in accordance with visa terms and validity."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "نکته مهم",
+        "en": "Important point."
+      },
+      "body": {
+        "fa": "تأیید COM به‌تنهایی به معنای تضمین صدور ویزای آمریکا نیست. پس از COM نیز مراحل مهاجرتی، بررسی‌های امنیتی، مصاحبه و سایر الزامات قانونی باید تکمیل شود.",
+        "en": "A confirmation of COM alone does not guarantee the US visa issuance. After COM, immigration procedures, security reviews, interviews and other legal requirements must be completed."
+      }
+    },
+    {
+      "title": {
+        "fa": "خلاصه مسیر SIV",
+        "en": "Summary of SIV"
+      },
+      "body": {
+        "fa": "شرایط اولیه\n⬇️\nآماده‌سازی مدارک\n⬇️\nدرخواست COM\n⬇️\nبررسی COM\n⬇️\nتأیید COM\n⬇️\nادامه پرونده مهاجرتی\n⬇️\nتکمیل فرم‌ها و مدارک\n⬇️\nبررسی‌های امنیتی\n⬇️\nتعیین محل مصاحبه\n⬇️\nمعاینات پزشکی\n⬇️\nمصاحبه کنسولی\n⬇️\nبررسی اداری در صورت نیاز\n⬇️\nتصمیم نهایی\n⬇️\nصدور ویزا\n⬇️\nسفر به آمریکا",
+        "en": "Early conditions.\n⬇️\nPreparing evidence.\n⬇️\nApplication of COM\n⬇️\nReview of COM\n⬇️\nConfirmation of COM\n⬇️\nContinue the immigration case.\n⬇️\nComplete forms and documents.\n⬇️\nSecurity reviews.\n⬇️\nLocation of interview\n⬇️\nMedical examinations.\n⬇️\nA consular interview.\n⬇️\nOffice check if needed.\n⬇️\nFinal decision.\n⬇️\nVisa issuance\n⬇️\nTravel to America."
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+name: afghan_in_usa
+description: "Afghan in USA - Immigration news and guidance app."
+publish_to: "none"
+version: 2026.1.6+20260906
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.5
+  lottie: ^3.3.1
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  google_sign_in: ^6.2.2
+  shared_preferences: ^2.5.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.4.0
+  intl: ^0.20.2
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.2
+  firebase_core: ^4.14.0
+  firebase_auth: ^6.0.0
+  firebase_messaging: ^16.1.1
+  supabase_flutter: ^2.12.0
+  file_picker: ^10.3.8
+  flutter_local_notifications: ^22.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/images/
+    - assets/images/nav/
+    - assets/images/settings/
+    - assets/images/cases/
+    - assets/images/documents/
+    - assets/images/profile/
+    - assets/images/news/
+    - assets/avatars/
+    - assets/news/
+    - assets/data/
+    - assets/cases/
+    - assets/fonts/
+    - assets/fonts/legacy/
+    - assets/fonts/legacy/extra_persian_display/
+
+  fonts:
+    - family: PersianNewsTitle
+      fonts:
+        - asset: assets/fonts/title.ttf
+
+    - family: PersianNewsBody
+      fonts:
+        - asset: assets/fonts/news.ttf
+
+    - family: EnglishApp
+      fonts:
+        - asset: assets/fonts/Magzine.ttf
+
+    - family: NavigationBar
+      fonts:
+        - asset: assets/fonts/navigation.otf
+
+    - family: Lateef
+      fonts:
+        - asset: assets/fonts/legacy/Lateef-Regular.ttf
+
+    - family: SultanK
+      fonts:
+        - asset: assets/fonts/legacy/SultanK-Medium.ttf

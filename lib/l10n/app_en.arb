@@ -1,0 +1,355 @@
+{
+  "@@locale": "en",
+  "appName": "Afghan in USA",
+  "@appName": {
+    "description": "appName string"
+  },
+  "appTagline": "Immigration guide for Afghans in the USA",
+  "@appTagline": {
+    "description": "appTagline string"
+  },
+  "navHome": "Home",
+  "@navHome": {
+    "description": "navHome string"
+  },
+  "navCases": "Cases",
+  "casesAfghan": "Afghan Cases",
+  "@casesAfghan": {"description": "casesAfghan string"},
+  "casesIranian": "Iranian Cases",
+  "@casesIranian": {"description": "casesIranian string"},
+  "@navCases": {
+    "description": "navCases string"
+  },
+  "navDocuments": "Documents",
+  "@navDocuments": {
+    "description": "navDocuments string"
+  },
+  "navProfile": "Profile",
+  "@navProfile": {
+    "description": "navProfile string"
+  },
+  "navSettings": "Settings",
+  "@navSettings": {
+    "description": "navSettings string"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "search string"
+  },
+  "searchNewsHint": "Search news or cases...",
+  "@searchNewsHint": {
+    "description": "searchNewsHint string"
+  },
+  "searchCityHint": "Enter a city name",
+  "@searchCityHint": {
+    "description": "searchCityHint string"
+  },
+  "latestNews": "Latest updates",
+  "@latestNews": {
+    "description": "latestNews string"
+  },
+  "featured": "Featured",
+  "@featured": {
+    "description": "featured string"
+  },
+  "readMore": "Read more",
+  "@readMore": {
+    "description": "readMore string"
+  },
+  "publishedBy": "Published by",
+  "@publishedBy": {
+    "description": "publishedBy string"
+  },
+  "noResults": "No results found",
+  "@noResults": {
+    "description": "noResults string"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "loading string"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "retry string"
+  },
+  "errorGeneric": "Something went wrong",
+  "@errorGeneric": {
+    "description": "errorGeneric string"
+  },
+  "errorNetwork": "Check your internet connection",
+  "@errorNetwork": {
+    "description": "errorNetwork string"
+  },
+  "casesTitle": "Case categories",
+  "@casesTitle": {
+    "description": "casesTitle string"
+  },
+  "casesSubtitle": "Registration & administrative steps",
+  "@casesSubtitle": {
+    "description": "casesSubtitle string"
+  },
+  "stepsLabel": "Step",
+  "@stepsLabel": {
+    "description": "stepsLabel string"
+  },
+  "stepsCount": "steps",
+  "@stepsCount": {
+    "description": "stepsCount string"
+  },
+  "caseGuide": "Step-by-step guide",
+  "@caseGuide": {
+    "description": "caseGuide string"
+  },
+  "caseNotes": "Important notes",
+  "@caseNotes": {
+    "description": "caseNotes string"
+  },
+  "caseNews": "Related news",
+  "@caseNews": {
+    "description": "caseNews string"
+  },
+  "faq": "FAQ",
+  "@faq": {
+    "description": "faq string"
+  },
+  "followOn": "Alerts on: you will get updates for this case",
+  "@followOn": {
+    "description": "followOn string"
+  },
+  "followOff": "Alerts off",
+  "@followOff": {
+    "description": "followOff string"
+  },
+  "followHint": "Turn the bell green to get updates for this case",
+  "@followHint": {
+    "description": "followHint string"
+  },
+  "documentsTitle": "Documents & forms",
+  "@documentsTitle": {
+    "description": "documentsTitle string"
+  },
+  "download": "Download",
+  "@download": {
+    "description": "download string"
+  },
+  "downloadsCount": "downloads",
+  "@downloadsCount": {
+    "description": "downloadsCount string"
+  },
+  "downloading": "Downloading...",
+  "@downloading": {
+    "description": "downloading string"
+  },
+  "downloadDone": "Download complete",
+  "@downloadDone": {
+    "description": "downloadDone string"
+  },
+  "downloadFailed": "Download failed",
+  "@downloadFailed": {
+    "description": "downloadFailed string"
+  },
+  "downloadNotAvailable": "This file is not available yet",
+  "@downloadNotAvailable": {
+    "description": "downloadNotAvailable string"
+  },
+  "downloadConditions": "To download, please sign in with your email",
+  "@downloadConditions": {
+    "description": "downloadConditions string"
+  },
+  "signIn": "Sign in",
+  "@signIn": {
+    "description": "signIn string"
+  },
+  "signInGoogle": "Sign in with Google",
+  "@signInGoogle": {
+    "description": "signInGoogle string"
+  },
+  "signInTitle": "Sign in",
+  "@signInTitle": {
+    "description": "signInTitle string"
+  },
+  "signInBody": "Sign in with Google to download documents and get alerts",
+  "@signInBody": {
+    "description": "signInBody string"
+  },
+  "signInFailed": "Sign-in failed",
+  "@signInFailed": {
+    "description": "signInFailed string"
+  },
+  "signOut": "Sign out",
+  "@signOut": {
+    "description": "signOut string"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "cancel string"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "close string"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "save string"
+  },
+  "saved": "Saved",
+  "@saved": {
+    "description": "saved string"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "notifications string"
+  },
+  "noNotifications": "No notifications yet",
+  "@noNotifications": {
+    "description": "noNotifications string"
+  },
+  "markAllRead": "Mark all as read",
+  "@markAllRead": {
+    "description": "markAllRead string"
+  },
+  "profileTitle": "Profile",
+  "@profileTitle": {
+    "description": "profileTitle string"
+  },
+  "guest": "Guest user",
+  "@guest": {
+    "description": "guest string"
+  },
+  "chooseAvatar": "Choose avatar",
+  "@chooseAvatar": {
+    "description": "chooseAvatar string"
+  },
+  "avatarSaved": "Avatar selected",
+  "@avatarSaved": {
+    "description": "avatarSaved string"
+  },
+  "firstName": "First name",
+  "@firstName": {
+    "description": "firstName string"
+  },
+  "lastName": "Last name",
+  "@lastName": {
+    "description": "lastName string"
+  },
+  "phone": "Phone (optional)",
+  "@phone": {
+    "description": "phone string"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "email string"
+  },
+  "myCases": "My cases",
+  "@myCases": {
+    "description": "myCases string"
+  },
+  "noFollowedCases": "You are not following any case",
+  "@noFollowedCases": {
+    "description": "noFollowedCases string"
+  },
+  "latestEvent": "Latest event for your case",
+  "@latestEvent": {
+    "description": "latestEvent string"
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "settingsTitle string"
+  },
+  "darkMode": "Dark mode",
+  "@darkMode": {
+    "description": "darkMode string"
+  },
+  "lightMode": "Light mode",
+  "@lightMode": {
+    "description": "lightMode string"
+  },
+  "themeSystem": "System default",
+  "@themeSystem": {
+    "description": "themeSystem string"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "language string"
+  },
+  "languageDari": "Dari",
+  "@languageDari": {
+    "description": "languageDari string"
+  },
+  "languageEnglish": "English",
+  "@languageEnglish": {
+    "description": "languageEnglish string"
+  },
+  "weather": "Weather",
+  "@weather": {
+    "description": "weather string"
+  },
+  "humidity": "Humidity",
+  "@humidity": {
+    "description": "humidity string"
+  },
+  "wind": "Wind",
+  "@wind": {
+    "description": "wind string"
+  },
+  "forecast": "5-day forecast",
+  "@forecast": {
+    "description": "forecast string"
+  },
+  "calculator": "Calculator",
+  "@calculator": {
+    "description": "calculator string"
+  },
+  "shareApp": "Share app with friends",
+  "@shareApp": {
+    "description": "shareApp string"
+  },
+  "appVersion": "App version",
+  "@appVersion": {
+    "description": "appVersion string"
+  },
+  "developer": "Developer",
+  "@developer": {
+    "description": "developer string"
+  },
+  "socialLinks": "Social media",
+  "@socialLinks": {
+    "description": "socialLinks string"
+  },
+  "about": "About",
+  "@about": {
+    "description": "about string"
+  },
+  "aboutBody": "This app provides general information about Afghan immigration pathways to the USA and is not legal advice.",
+  "@aboutBody": {
+    "description": "aboutBody string"
+  },
+  "disclaimer": "This content is not legal advice",
+  "@disclaimer": {
+    "description": "disclaimer string"
+  },
+  "welcomeBack": "Welcome back",
+  "@welcomeBack": {
+    "description": "welcomeBack string"
+  },
+  "viewAll": "View all",
+  "@viewAll": {
+    "description": "viewAll string"
+  },
+  "open": "Open",
+  "@open": {
+    "description": "open string"
+  },
+  "categoryAll": "All",
+  "@categoryAll": {
+    "description": "categoryAll string"
+  },
+  "linkFailed": "Could not open the link",
+  "@linkFailed": {
+    "description": "linkFailed string"
+  },
+  "shareSubject": "App introduction",
+  "@shareSubject": {
+    "description": "shareSubject string"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "ir_m1_m2",
+  "icon": "school",
+  "color": "#4527A0",
+  "kind": "iranian",
+  "name": {
+    "fa": "M-1 / M-2",
+    "en": "M-1 / M-2"
+  },
+  "title": {
+    "fa": "M-1 / M-2 — آموزش حرفه‌ای",
+    "en": "M-1 / M-2 — Vocational Study"
+  },
+  "description": {
+    "fa": "M-1 / M-2 — آموزش حرفه‌ای\nبرای آموزش حرفه‌ای یا غیرآکادمیک واجد شرایط و اعضای خانواده واجد شرایط.",
+    "en": "M-1 / M-2 — Vocational Study\nFor eligible vocational or nonacademic study and qualifying family members."
+  },
+  "stepCount": 11,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "M-1 / M-2 — آموزش حرفه‌ای\nبرای آموزش حرفه‌ای یا غیرآکادمیک واجد شرایط و اعضای خانواده واجد شرایط.",
+        "en": "M-1 / M-2 — Vocational Study\nFor eligible vocational or nonacademic study and qualifying family members."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "انتخاب برنامه",
+        "en": "Choosing a Program"
+      },
+      "body": {
+        "fa": "مؤسسه و دوره مناسب انتخاب و پذیرش دریافت می‌شود.",
+        "en": "A suitable institution and course are selected, and admission is received."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "آماده‌سازی",
+        "en": "Preparation"
+      },
+      "body": {
+        "fa": "مدارک تحصیلی، مالی و هویتی مرتب می‌شود.",
+        "en": "Study, financial, and identity documents are organized."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "مرحله کنسولی",
+        "en": "Consular Stage"
+      },
+      "body": {
+        "fa": "درخواست ویزا و وقت مصاحبه دنبال می‌شود.",
+        "en": "The visa application and the interview appointment are pursued."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "مصاحبه",
+        "en": "Interview"
+      },
+      "body": {
+        "fa": "هدف آموزشی، توانایی مالی و قصد رعایت شرایط بررسی می‌شود.",
+        "en": "The purpose of the study, the financial ability, and the intent to comply with the conditions are reviewed."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "بررسی تکمیلی",
+        "en": "Additional Review"
+      },
+      "body": {
+        "fa": "در صورت نیاز مدارک یا توضیحات بیشتر ارائه می‌شود.",
+        "en": "If needed, additional documents or explanations are provided."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "تصمیم و صدور",
+        "en": "Decision and Issuance"
+      },
+      "body": {
+        "fa": "پس از تصمیم مثبت، ویزا صادر می‌شود.",
+        "en": "After a positive decision, a visa is issued."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "ورود و تحصیل",
+        "en": "Entry and Study"
+      },
+      "body": {
+        "fa": "ورود و تحصیل باید مطابق شرایط M-1 انجام شود.",
+        "en": "Entry and study must comply with the conditions of M-1 status."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "M-2",
+        "en": "M-2"
+      },
+      "body": {
+        "fa": "همسر یا فرزند واجد شرایط مراحل مربوط به همراه را طی می‌کند.",
+        "en": "A qualifying spouse or child follows the process related to accompanying the principal applicant."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "پس از تصمیم مثبت، ویزا صادر می‌شود.",
+        "en": "After a positive decision, a visa is issued."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ]
+}

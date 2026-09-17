@@ -1,0 +1,40 @@
+# Codemagic — cloud build for Afghan In USA (iOS)
+#
+# این فایل خروجی IPA را روی سرورهای ابری macOS می‌سازد؛ مک لازم نیست.
+# ۱) پروژه را در GitHub/GitLab/Bitbucket بگذارید.
+# ۲) در codemagic.io وارد شوید، اپ را اضافه کنید و workflow «ios-release» را انتخاب کنید.
+# ۳) برای نصب روی آیفون/تست‌فلایت، در بخش Environment variables رمزهای
+#    امضا (App Store Connect API key) را اضافه کنید — بدون آن فقط بیلد
+#    شبیه‌ساز (بدون امضا) ساخته می‌شود.
+#
+# The dart-define values match the Android release build; they are publishable
+# Supabase values only — no service keys live here.
+workflows:
+  ios-release:
+    name: Afghan In USA — iOS Release
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      vars:
+        BUNDLE_ID: com.afghaninusa
+    scripts:
+      - name: Pub get
+        script: flutter pub get
+      - name: CocoaPods install
+        script: |
+          cd ios
+          pod install
+      - name: Build IPA
+        script: |
+          flutter build ipa --release \
+            --dart-define=SUPABASE_URL=https://uqwcahtlnaodaeusmzmm.supabase.co \
+            --dart-define=SUPABASE_ANON_KEY=sb_publishable_GF5HEOLIzABEsJxKeHaUmg_iUWd3YGl
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      email:
+        recipients:
+          - YOUR_EMAIL@example.com

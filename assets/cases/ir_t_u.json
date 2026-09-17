@@ -1,0 +1,248 @@
+{
+  "id": "ir_t_u",
+  "icon": "heart",
+  "color": "#6D4C41",
+  "kind": "iranian",
+  "name": {
+    "fa": "T / U",
+    "en": "T / U Visas"
+  },
+  "title": {
+    "fa": "T / U — حمایت از برخی قربانیان جرایم",
+    "en": "T / U — Protection for Certain Crime Victims"
+  },
+  "description": {
+    "fa": "T / U — حمایت از برخی قربانیان جرایم\nبرای قربانیان واجد شرایط جرایم مشخص که شرایط قانونی این حمایت را دارند.",
+    "en": "T / U — Protection for Certain Crime Victims\nFor qualifying victims of specified crimes who meet the legal requirements of this protection."
+  },
+  "stepCount": 13,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "T / U — حمایت از برخی قربانیان جرایم\nبرای قربانیان واجد شرایط جرایم مشخص که شرایط قانونی این حمایت را دارند.",
+        "en": "T / U — Protection for Certain Crime Victims\nFor qualifying victims of specified crimes who meet the legal requirements of this protection."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "بررسی شرایط",
+        "en": "Reviewing the Conditions"
+      },
+      "body": {
+        "fa": "نوع جرم، همکاری با مراجع و سایر شرایط قانونی بررسی می‌شود.",
+        "en": "The type of crime, the cooperation with the authorities, and the other legal requirements are reviewed."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "مدارک",
+        "en": "Documents"
+      },
+      "body": {
+        "fa": "هویت، شرح پرونده و شواهد مرتبط آماده می‌شود.",
+        "en": "Identity, a description of the case, and the related evidence are prepared."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "تأییدیه لازم",
+        "en": "Required Certification"
+      },
+      "body": {
+        "fa": "در مواردی که قانون لازم می‌داند، تأییدیه مرجع مربوط گرفته می‌شود.",
+        "en": "Where required by law, a certification from the relevant authority is obtained."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "ثبت درخواست",
+        "en": "Filing the Application"
+      },
+      "body": {
+        "fa": "پرونده آغاز می‌شود.",
+        "en": "The case is initiated."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "بررسی اولیه",
+        "en": "Initial Review"
+      },
+      "body": {
+        "fa": "ثبت و کامل بودن پرونده بررسی می‌شود.",
+        "en": "The filing and the completeness of the case are reviewed."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "بررسی ماهوی",
+        "en": "Substantive Review"
+      },
+      "body": {
+        "fa": "شرایط قانونی و شواهد بررسی می‌شود.",
+        "en": "The legal requirements and the evidence are reviewed."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "درخواست اطلاعات بیشتر",
+        "en": "Request for More Information"
+      },
+      "body": {
+        "fa": "در صورت نیاز مدارک تکمیلی ارائه می‌شود.",
+        "en": "If needed, supplementary documents are provided."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "بررسی‌های امنیتی",
+        "en": "Security Checks"
+      },
+      "body": {
+        "fa": "سوابق و شرایط لازم بررسی می‌شود.",
+        "en": "The history and the required conditions are reviewed."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "تصمیم",
+        "en": "Decision"
+      },
+      "body": {
+        "fa": "در صورت تأیید، وضعیت مربوط اعطا می‌شود.",
+        "en": "If approved, the relevant status is granted."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحلهٔ ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "مسیر اقامت دائم",
+        "en": "Path to Permanent Residence"
+      },
+      "body": {
+        "fa": "پس از فراهم‌شدن شرایط، امکان بررسی اقامت دائم وجود دارد.",
+        "en": "Once the requirements are met, applying for permanent residence becomes possible."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحلهٔ ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "در صورت تأیید، وضعیت مربوط اعطا می‌شود.",
+        "en": "If approved, the relevant status is granted."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ]
+}

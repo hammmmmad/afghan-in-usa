@@ -1,0 +1,357 @@
+{
+  "@@locale": "fa",
+  "appName": "Afghan in USA",
+  "@appName": {
+    "description": "appName string"
+  },
+  "appTagline": "راهنمای مهاجرت افغان‌ها در آمریکا",
+  "@appTagline": {
+    "description": "appTagline string"
+  },
+  "navHome": "خانه",
+  "@navHome": {
+    "description": "navHome string"
+  },
+  "navCases": "پرونده",
+  "casesAfghan": "پرونده‌های افغان‌ها",
+  "@casesAfghan": {"description": "casesAfghan string"},
+  "casesIranian": "پرونده‌های ایرانیان",
+  "@casesIranian": {"description": "casesIranian string"},
+  "@navCases": {
+    "description": "navCases string"
+  },
+  "navDocuments": "مستندات",
+  "@navDocuments": {
+    "description": "navDocuments string"
+  },
+  "navProfile": "پروفایل",
+  "@navProfile": {
+    "description": "navProfile string"
+  },
+  "navSettings": "تنظیمات",
+  "@navSettings": {
+    "description": "navSettings string"
+  },
+  "search": "جستجو",
+  "@search": {
+    "description": "search string"
+  },
+  "searchNewsHint": "جستجوی خبر یا پرونده...",
+  "@searchNewsHint": {
+    "description": "searchNewsHint string"
+  },
+  "searchCityHint": "نام شهر را وارد کنید",
+  "@searchCityHint": {
+    "description": "searchCityHint string"
+  },
+  "latestNews": "آخرین رویدادها",
+  "@latestNews": {
+    "description": "latestNews string"
+  },
+  "featured": "ویژه",
+  "@featured": {
+    "description": "featured string"
+  },
+  "readMore": "ادامه مطلب",
+  "@readMore": {
+    "description": "readMore string"
+  },
+  "publishedBy": "منتشر شده توسط",
+  "@publishedBy": {
+    "description": "publishedBy string"
+  },
+  "noResults": "نتیجه‌ای یافت نشد",
+  "@noResults": {
+    "description": "noResults string"
+  },
+  "loading": "در حال بارگذاری...",
+  "@loading": {
+    "description": "loading string"
+  },
+  "retry": "تلاش دوباره",
+  "@retry": {
+    "description": "retry string"
+  },
+  "errorGeneric": "مشکلی پیش آمد",
+  "@errorGeneric": {
+    "description": "errorGeneric string"
+  },
+  "errorNetwork": "اتصال اینترنت را بررسی کنید",
+  "@errorNetwork": {
+    "description": "errorNetwork string"
+  },
+  "casesTitle": "دسته‌های پرونده",
+  "@casesTitle": {
+    "description": "casesTitle string"
+  },
+  "casesSubtitle": "مراحل ثبت نام و طی مراحل اداری",
+  "@casesSubtitle": {
+    "description": "casesSubtitle string"
+  },
+  "stepsLabel": "مرحله",
+  "@stepsLabel": {
+    "description": "stepsLabel string"
+  },
+  "stepsCount": "مرحله",
+  "@stepsCount": {
+    "description": "stepsCount string"
+  },
+  "caseGuide": "راهنمای گام‌به‌گام",
+  "@caseGuide": {
+    "description": "caseGuide string"
+  },
+  "caseNotes": "نکات مهم",
+  "@caseNotes": {
+    "description": "caseNotes string"
+  },
+  "caseNews": "خبرهای مرتبط",
+  "@caseNews": {
+    "description": "caseNews string"
+  },
+  "faq": "پرسش‌های متداول",
+  "@faq": {
+    "description": "faq string"
+  },
+  "followOn": "زنگوله فعال شد؛ خبرهای این پرونده را دریافت می‌کنید",
+  "@followOn": {
+    "description": "followOn string"
+  },
+  "followOff": "زنگوله خاموش شد",
+  "@followOff": {
+    "description": "followOff string"
+  },
+  "followHint": "برای دریافت خبرهای این پرونده زنگوله را سبز کنید",
+  "@followHint": {
+    "description": "followHint string"
+  },
+  "documentsTitle": "اسناد و فرم‌ها",
+  "@documentsTitle": {
+    "description": "documentsTitle string"
+  },
+  "download": "دانلود",
+  "@download": {
+    "description": "download string"
+  },
+  "downloadsCount": "دانلود",
+  "@downloadsCount": {
+    "description": "downloadsCount string"
+  },
+  "downloading": "در حال دانلود...",
+  "@downloading": {
+    "description": "downloading string"
+  },
+  "downloadDone": "دانلود کامل شد",
+  "@downloadDone": {
+    "description": "downloadDone string"
+  },
+  "downloadFailed": "دانلود ناموفق بود",
+  "@downloadFailed": {
+    "description": "downloadFailed string"
+  },
+  "downloadNotAvailable": "فایل این سند فعلاً در دسترس نیست",
+  "@downloadNotAvailable": {
+    "description": "downloadNotAvailable string"
+  },
+  "downloadConditions": "شرط دانلود: برای دانلود این سند باید عضو شوید یا با ایمیل خود وارد شوید",
+  "@downloadConditions": {
+    "description": "downloadConditions string"
+  },
+  "signIn": "ورود",
+  "@signIn": {
+    "description": "signIn string"
+  },
+  "signInGoogle": "ورود با حساب گوگل",
+  "@signInGoogle": {
+    "description": "signInGoogle string"
+  },
+  "signInTitle": "ورود به حساب",
+  "@signInTitle": {
+    "description": "signInTitle string"
+  },
+  "signInBody": "برای دانلود اسناد و دریافت اطلاع‌رسانی، با حساب گوگل خود وارد شوید",
+  "@signInBody": {
+    "description": "signInBody string"
+  },
+  "signInFailed": "ورود انجام نشد",
+  "@signInFailed": {
+    "description": "signInFailed string"
+  },
+  "signOut": "خروج از حساب",
+  "@signOut": {
+    "description": "signOut string"
+  },
+  "cancel": "لغو",
+  "@cancel": {
+    "description": "cancel string"
+  },
+  "close": "بستن",
+  "@close": {
+    "description": "close string"
+  },
+  "save": "ذخیره",
+  "@save": {
+    "description": "save string"
+  },
+  "saved": "ذخیره شد",
+  "@saved": {
+    "description": "saved string"
+  },
+  "notifications": "اطلاع‌رسانی‌ها",
+  "@notifications": {
+    "description": "notifications string"
+  },
+  "noNotifications": "فعلاً اطلاع‌رسانی جدیدی ندارید",
+  "@noNotifications": {
+    "description": "noNotifications string"
+  },
+  "markAllRead": "همه خوانده شد",
+  "@markAllRead": {
+    "description": "markAllRead string"
+  },
+  "profileTitle": "پروفایل",
+  "@profileTitle": {
+    "description": "profileTitle string"
+  },
+  "guest": "کاربر مهمان",
+  "@guest": {
+    "description": "guest string"
+  },
+  "chooseAvatar": "انتخاب آواتار",
+  "@chooseAvatar": {
+    "description": "chooseAvatar string"
+  },
+  "avatarSaved": "آواتار انتخاب شد",
+  "@avatarSaved": {
+    "description": "avatarSaved string"
+  },
+  "firstName": "نام",
+  "@firstName": {
+    "description": "firstName string"
+  },
+  "lastName": "تخلص",
+  "@lastName": {
+    "description": "lastName string"
+  },
+  "phone": "شماره تماس (اختیاری)",
+  "@phone": {
+    "description": "phone string"
+  },
+  "email": "ایمیل",
+  "@email": {
+    "description": "email string"
+  },
+  "myCases": "پرونده‌های من",
+  "@myCases": {
+    "description": "myCases string"
+  },
+  "noFollowedCases": "هیچ پرونده‌ای را دنبال نمی‌کنید",
+  "@noFollowedCases": {
+    "description": "noFollowedCases string"
+  },
+  "latestEvent": "آخرین رویداد پرونده شما",
+  "@latestEvent": {
+    "description": "latestEvent string"
+  },
+  "settingsTitle": "تنظیمات",
+  "@settingsTitle": {
+    "description": "settingsTitle string"
+  },
+  "darkMode": "حالت شب",
+  "@darkMode": {
+    "description": "darkMode string"
+  },
+  "lightMode": "حالت روز",
+  "@lightMode": {
+    "description": "lightMode string"
+  },
+  "themeSystem": "مطابق سیستم",
+  "@themeSystem": {
+    "description": "themeSystem string"
+  },
+  "language": "زبان",
+  "@language": {
+    "description": "language string"
+  },
+  "languageDari": "پارسی",
+  "@languageDari": {
+    "description": "languageDari string"
+  },
+  "languageEnglish": "انگلیسی",
+  "@languageEnglish": {
+    "description": "languageEnglish string"
+  },
+  "weather": "آب و هوا",
+  "@weather": {
+    "description": "weather string"
+  },
+  "humidity": "رطوبت",
+  "@humidity": {
+    "description": "humidity string"
+  },
+  "wind": "باد",
+  "@wind": {
+    "description": "wind string"
+  },
+  "forecast": "پیش‌بینی ۵ روزه",
+  "@forecast": {
+    "description": "forecast string"
+  },
+  "calculator": "ماشین حساب",
+  "@calculator": {
+    "description": "calculator string"
+  },
+  "shareApp": "شریک نمودن اپ با دوستان",
+  "@shareApp": {
+    "description": "shareApp string"
+  },
+  "appVersion": "آخرین نسخه",
+  "@appVersion": {
+    "description": "appVersion string"
+  },
+  "developer": "سازنده برنامه",
+  "@developer": {
+    "description": "developer string"
+  },
+  "socialLinks": "شبکه‌های اجتماعی",
+  "@socialLinks": {
+    "description": "socialLinks string"
+  },
+  "about": "درباره برنامه",
+  "@about": {
+    "description": "about string"
+  },
+  "aboutBody": "این برنامه اطلاعات عمومی درباره مسیرهای مهاجرت افغان‌ها به آمریکا را ارائه می‌کند و مشاوره حقوقی نیست.",
+  "@aboutBody": {
+    "description": "aboutBody string"
+  },
+  "disclaimer": "این محتوا مشاوره حقوقی نیست",
+  "@disclaimer": {
+    "description": "disclaimer string"
+  },
+  "welcomeBack": "خوش آمدید",
+  "@welcomeBack": {
+    "description": "welcomeBack string"
+  },
+  "viewAll": "مشاهده همه",
+  "@viewAll": {
+    "description": "viewAll string"
+  },
+  "open": "باز کردن",
+  "@open": {
+    "description": "open string"
+  },
+  "categoryAll": "همه",
+  "@categoryAll": {
+    "description": "categoryAll string"
+  },
+  "linkFailed": "باز کردن لینک ناموفق بود",
+  "@linkFailed": {
+    "description": "linkFailed string"
+  },
+  "shareSubject": "معرفی اپلیکیشن",
+  "@shareSubject": {
+    "description": "shareSubject string"
+  }
+}
+
+

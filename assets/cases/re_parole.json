@@ -1,0 +1,197 @@
+{
+  "id": "re_parole",
+  "icon": "refresh",
+  "color": "#F4511E",
+  "name": {
+    "fa": "تمدید پارول (Re-Parole)",
+    "en": "Re-Parole"
+  },
+  "title": {
+    "fa": "مراحل Re-Parole برای افغان‌ها",
+    "en": "Re-Parole for Afghans"
+  },
+  "stepCount": 12,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "بررسی شرایط",
+        "en": "Review of conditions."
+      },
+      "body": {
+        "fa": "متقاضی بررسی می‌کند که آیا هنوز شرایط لازم برای درخواست Re-Parole را دارد و آیا مدت Parole فعلی او در حال پایان است یا به پایان رسیده است.",
+        "en": "The applicant investigates whether he still has the requirements for Re-Parole, and whether his current Parole period is either over or over."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک",
+        "en": "Preparing evidence."
+      },
+      "body": {
+        "fa": "مدارک هویتی، سند یا مدرک Parole قبلی، اطلاعات ورود به آمریکا و مدارکی که دلیل درخواست ادامه حضور را نشان می‌دهد آماده می‌شود.",
+        "en": "Identity documents, document or previous Parole degree, entry information to the United States and documents showing the reason for the continuation of the presence."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "ثبت درخواست",
+        "en": "Application registration."
+      },
+      "body": {
+        "fa": "متقاضی درخواست Re-Parole را طبق دستورالعمل USCIS ثبت می‌کند و فرم‌ها و مدارک مورد نیاز را ارائه می‌دهد.",
+        "en": "The applicant records the Re-Parole application according to the USCIS guidelines and provides the required forms and documents."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "دریافت رسید پرونده",
+        "en": "receipt of the case."
+      },
+      "body": {
+        "fa": "پس از دریافت درخواست، USCIS رسید پرونده را صادر می‌کند و روند بررسی آغاز می‌شود.",
+        "en": "After receiving the application, USCIS will issue the case and the review process begins."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "بررسی درخواست توسط USCIS",
+        "en": "Application review by USCIS"
+      },
+      "body": {
+        "fa": "USCIS شرایط متقاضی، سابقه Parole و دلایل درخواست ادامه حضور در آمریکا را بررسی می‌کند.",
+        "en": "USCIS explores the applicant’s terms, the history of Parole and the reasons for the continuation of the U.S. presence."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "بیومتریک",
+        "en": "biometrics."
+      },
+      "body": {
+        "fa": "در صورت درخواست USCIS، متقاضی باید برای انجام مراحل بیومتریک مانند انگشت‌نگاری و عکس مراجعه کند.",
+        "en": "If you apply for USCIS, the applicant must visit for biometric procedures such as fingerography and photographs."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "درخواست مدارک تکمیلی",
+        "en": "Application of Graduate documents"
+      },
+      "body": {
+        "fa": "اگر اطلاعات یا مدارک بیشتری لازم باشد، USCIS ممکن است درخواست مدارک تکمیلی صادر کند.",
+        "en": "If more information or documents are required, USCIS may apply for additional documents."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "بررسی‌های امنیتی",
+        "en": "Security reviews."
+      },
+      "body": {
+        "fa": "پرونده ممکن است تحت بررسی‌های امنیتی و سوابق قرار گیرد.",
+        "en": "The case may be under security checks and records."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تصمیم USCIS",
+        "en": "USCIS decision"
+      },
+      "body": {
+        "fa": "پس از تکمیل بررسی‌ها، USCIS درباره درخواست Re-Parole تصمیم می‌گیرد.",
+        "en": "After completing the review, USCIS decides to apply for Re-Parole."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "تأیید Re-Parole",
+        "en": "Re-Parole"
+      },
+      "body": {
+        "fa": "در صورت تأیید، مدت جدید Parole مطابق تصمیم USCIS تعیین می‌شود و متقاضی می‌تواند طبق شرایط آن در آمریکا حضور داشته باشد.",
+        "en": "If confirmed, the new Parole period is determined in accordance with the USCIS decision, and the applicant can be present in the United States under its conditions."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "دریافت مدارک مربوط به وضعیت جدید",
+        "en": "Get documents about the new situation."
+      },
+      "body": {
+        "fa": "متقاضی مدارک یا اطلاعیه مربوط به تأیید Re-Parole را دریافت می‌کند و باید شرایط و مدت اعتبار آن را رعایت کند.",
+        "en": "The applicant receives documents or notices related to Re-Parole approval and must comply with the terms and duration of its validity."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "پیگیری وضعیت مهاجرتی",
+        "en": "Follow the immigration situation."
+      },
+      "body": {
+        "fa": "پس از دریافت Re-Parole، فرد باید اعتبار آن را پیگیری کند و در صورت واجد شرایط بودن، سایر مسیرهای قانونی مهاجرتی یا اقامتی را بررسی کند.",
+        "en": "After receiving Re-Parole, a person must track the validity and check out other legal routes of immigration or residency if they are eligible."
+      }
+    }
+  ],
+  "notes": []
+}
