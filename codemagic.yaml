@@ -1,39 +1,44 @@
 # Codemagic — cloud build for Afghan In USA (iOS)
 #
-# این فایل خروجی IPA را روی سرورهای ابری macOS می‌سازد؛ مک لازم نیست.
-# ۱) پروژه را در GitHub/GitLab/Bitbucket بگذارید.
-# ۲) در codemagic.io وارد شوید، اپ را اضافه کنید و workflow «ios-release» را انتخاب کنید.
-# ۳) برای نصب روی آیفون/تست‌فلایت، در بخش Environment variables رمزهای
-#    امضا (App Store Connect API key) را اضافه کنید — بدون آن فقط بیلد
-#    شبیه‌ساز (بدون امضا) ساخته می‌شود.
+# Builds an UNSIGNED release Runner.app on a cloud Mac — completely free
+# (Codemagic personal tier: 500 macOS minutes/month) and needs no Apple
+# Developer account. The zip can be signed later (Sideloadly/AltStore with a
+# free Apple ID, or full distribution once the paid account exists).
 #
-# The dart-define values match the Android release build; they are publishable
-# Supabase values only — no service keys live here.
+# Flutter is pinned to the exact version the project was generated with, so
+# the build machine does not auto-migrate the iOS project to Swift Package
+# Manager (that migration broke the first build).
 workflows:
   ios-release:
     name: Afghan In USA — iOS Release
     max_build_duration: 60
     instance_type: mac_mini_m2
     environment:
-      flutter: stable
+      flutter: 3.41.9
       xcode: latest
       cocoapods: default
       vars:
         BUNDLE_ID: com.afghaninusa
     scripts:
+      - name: Disable Swift Package Manager
+        script: flutter config --no-enable-swift-package-manager || true
       - name: Pub get
         script: flutter pub get
       - name: CocoaPods install
         script: |
           cd ios
           pod install
-      - name: Build IPA
+      - name: Build iOS (unsigned release)
         script: |
-          flutter build ipa --release \
+          flutter build ios --release --no-codesign \
             --dart-define=SUPABASE_URL=https://uqwcahtlnaodaeusmzmm.supabase.co \
             --dart-define=SUPABASE_ANON_KEY=sb_publishable_GF5HEOLIzABEsJxKeHaUmg_iUWd3YGl
+      - name: Package unsigned app
+        script: |
+          cd build/ios/iphoneos
+          zip -qry Runner-release-unsigned.zip Runner.app
     artifacts:
-      - build/ios/ipa/*.ipa
+      - build/ios/iphoneos/Runner-release-unsigned.zip
     publishing:
       email:
         recipients:
