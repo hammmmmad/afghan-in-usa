@@ -5,9 +5,11 @@
 # Developer account. The zip can be signed later (Sideloadly/AltStore with a
 # free Apple ID, or full distribution once the paid account exists).
 #
-# Flutter is pinned to the exact version the project was generated with, so
-# the build machine does not auto-migrate the iOS project to Swift Package
-# Manager (that migration broke the first build).
+# Flutter is pinned to the exact version the project was generated with.
+# All iOS plugins (google_sign_in, firebase_*, ...) resolve as Swift Packages
+# on this Flutter version, so the project is SPM-only: the Podfile was removed
+# from the repo and CocoaPods must not be used (mixing SPM + CocoaPods is what
+# broke the earlier builds with "sandbox is not in sync with the Podfile.lock").
 workflows:
   ios-release:
     name: Afghan In USA — iOS Release
@@ -16,19 +18,19 @@ workflows:
     environment:
       flutter: 3.41.9
       xcode: latest
-      cocoapods: default
       vars:
         BUNDLE_ID: com.afghaninusa
     scripts:
-      - name: Disable Swift Package Manager
-        script: flutter config --no-enable-swift-package-manager || true
       - name: Pub get
         script: flutter pub get
-      - name: CocoaPods install (clean)
+      - name: Verify SPM-only project (no CocoaPods)
         script: |
           cd ios
-          rm -rf Pods Podfile.lock
-          pod install
+          if [ -f Podfile ] || [ -d Pods ]; then
+            echo "CocoaPods artifacts found; removing (project is SPM-only)."
+            rm -f Podfile Podfile.lock
+            rm -rf Pods
+          fi
       - name: Build iOS (unsigned release)
         script: |
           flutter build ios --release --no-codesign \
@@ -43,4 +45,4 @@ workflows:
     publishing:
       email:
         recipients:
-          - YOUR_EMAIL@example.com
+          - Merlinsarfraz123@gmail.com
