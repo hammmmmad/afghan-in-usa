@@ -51,3 +51,33 @@ workflows:
       email:
         recipients:
           - Merlinsarfraz123@gmail.com
+
+  # Appetize.io (and any iOS emulator) only runs SIMULATOR builds. This
+  # workflow produces an unsigned Simulator .app zip for live web previews.
+  ios-simulator:
+    name: Afghan In USA — iOS Simulator (web preview)
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      flutter: 3.41.9
+      xcode: latest
+      vars:
+        BUNDLE_ID: com.afghaninusa
+    scripts:
+      - name: Pub get
+        script: flutter pub get
+      - name: Build iOS Simulator app
+        script: |
+          flutter build ios --simulator --release \
+            --dart-define=SUPABASE_URL=https://uqwcahtlnaodaeusmzmm.supabase.co \
+            --dart-define=SUPABASE_ANON_KEY=sb_publishable_GF5HEOLIzABEsJxKeHaUmg_iUWd3YGl
+      - name: Package simulator app
+        script: |
+          cd build/ios/iphonesimulator
+          zip -qry Runner-simulator.zip Runner.app
+    artifacts:
+      - build/ios/iphonesimulator/Runner-simulator.zip
+    publishing:
+      email:
+        recipients:
+          - Merlinsarfraz123@gmail.com
