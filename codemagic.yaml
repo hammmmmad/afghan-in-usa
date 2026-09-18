@@ -33,25 +33,20 @@ workflows:
           fi
       - name: Build iOS (unsigned release)
         script: |
-          # Build with xcodebuild directly and force signing OFF, because
-          # `flutter build ios --no-codesign` still fails on CI when no
-          # Development Team is configured. DART_DEFINES uses the base64
-          # format that the Flutter Xcode build phase expects.
-          export DART_DEFINES="$(printf '%s' 'SUPABASE_URL=https://uqwcahtlnaodaeusmzmm.supabase.co' | base64),$(printf '%s' 'SUPABASE_ANON_KEY=sb_publishable_GF5HEOLIzABEsJxKeHaUmg_iUWd3YGl' | base64)"
-          cd ios
-          xcodebuild -workspace Runner.xcworkspace -scheme Runner \
-            -configuration Release -sdk iphoneos \
-            -destination 'generic/platform=iOS' \
-            -derivedDataPath ../build/ios_unsigned \
-            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGN_IDENTITY="" DEVELOPMENT_TEAM="" \
-            build
+          # flutter build (not raw xcodebuild) is required: the Flutter tool
+          # generates GeneratedPluginRegistrant and syncs every plugin's Swift
+          # Package into the Xcode project. Raw xcodebuild skips that sync and
+          # fails with "Module 'app_links' not found". --no-codesign disables
+          # signing, so no Apple Developer account is needed.
+          flutter build ios --release --no-codesign \
+            --dart-define=SUPABASE_URL=https://uqwcahtlnaodaeusmzmm.supabase.co \
+            --dart-define=SUPABASE_ANON_KEY=sb_publishable_GF5HEOLIzABEsJxKeHaUmg_iUWd3YGl
       - name: Package unsigned app
         script: |
-          cd build/ios_unsigned/Build/Products/Release-iphoneos
+          cd build/ios/iphoneos
           zip -qry Runner-release-unsigned.zip Runner.app
     artifacts:
-      - build/ios_unsigned/Build/Products/Release-iphoneos/Runner-release-unsigned.zip
+      - build/ios/iphoneos/Runner-release-unsigned.zip
     publishing:
       email:
         recipients:
