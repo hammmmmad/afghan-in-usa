@@ -65,6 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'afghan-in-usa.firebasestorage.app',
     iosBundleId: 'com.afghaninusa',
     iosClientId: '318374626413-b1fjdi0qa5c13gtiva2ov17olvss79r1.apps.googleusercontent.com',
-    iosUrlScheme: 'com.googleusercontent.apps.318374626413-b1fjdi0qa5c13gtiva2ov17olvss79r1',
   );
 }
