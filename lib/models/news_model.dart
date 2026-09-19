@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import '../utils/shamsi_date.dart';
+
 class NewsCategory {
   const NewsCategory({required this.id, required this.labels});
   final String id;
@@ -210,8 +212,14 @@ class NewsModel {
   }
 
   DateTime? get parsedDate => publishedAt ?? DateTime.tryParse(dateIso);
-  String localizedDate(String languageCode) =>
-      languageCode == 'en' ? dateEn : dateFa;
+  String localizedDate(String languageCode) {
+    if (languageCode == 'en') return dateEn;
+    // Persian: render the Solar Hijri date (Afghan + Iranian month names)
+    // from date_iso so every row — old or new — shows the correct date.
+    final DateTime? d = DateTime.tryParse(dateIso);
+    if (d != null) return ShamsiDate.format(d);
+    return dateFa;
+  }
   String localizedTitle(String languageCode) =>
       languageCode == 'en' && titleEn.isNotEmpty ? titleEn : titleFa;
   String localizedSummary(String languageCode) =>
