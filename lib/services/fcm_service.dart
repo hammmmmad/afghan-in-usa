@@ -14,7 +14,10 @@ class FcmService {
   FcmService._();
 
   static final FcmService instance = FcmService._();
-  final FirebaseMessaging _messaging = FirebaseMessaging.instance;
+  // Lazy: FirebaseMessaging.instance must not run in the constructor — on web
+  // it throws before Firebase is ready and would crash main() with a white
+  // screen. Evaluating on first use inside initialize()'s try/catch is safe.
+  late final FirebaseMessaging _messaging = FirebaseMessaging.instance;
   final FlutterLocalNotificationsPlugin _local =
       FlutterLocalNotificationsPlugin();
   bool _started = false;

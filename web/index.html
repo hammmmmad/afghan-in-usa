@@ -33,6 +33,26 @@
 
   <title>Afghan In USA — افغان در آمریکا</title>
   <link rel="manifest" href="manifest.json">
+  <script>
+    // On-screen error reporter: release web builds are a white screen when
+    // startup throws, so surface every error as visible text for diagnosis.
+    function __showErr(prefix, detail) {
+      var box = document.getElementById('__errbox');
+      if (!box) {
+        box = document.createElement('pre');
+        box.id = '__errbox';
+        box.style.cssText = 'position:fixed;top:0;left:0;right:0;background:#fff3f3;color:#9b1c1c;padding:10px;margin:0;z-index:99999;font:12px/1.5 monospace;white-space:pre-wrap;max-height:60vh;overflow:auto;direction:ltr;text-align:left';
+        document.body.appendChild(box);
+      }
+      box.textContent += prefix + ': ' + detail + '\n\n';
+    }
+    window.addEventListener('error', function (e) {
+      console.warn('AfghanInUSA web error:', (e.message || e.type), (e.lineno || ''));
+    });
+    window.addEventListener('unhandledrejection', function (e) {
+      console.warn('AfghanInUSA web rejection:', e.reason);
+    });
+  </script>
 </head>
 <body>
   <!--

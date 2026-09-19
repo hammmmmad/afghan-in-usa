@@ -51,8 +51,11 @@ Future<void> main() async {
   }
 
   // Push subscription is entirely optional; it needs Play Services and
-  // network, so it must never sit on the startup critical path.
-  unawaited(FcmService.instance.initialize());
+  // network, so it must never sit on the startup critical path. The try is
+  // belt-and-braces: even touching FcmService must not kill startup.
+  try {
+    unawaited(FcmService.instance.initialize());
+  } catch (_) {}
 
   // Release builds render a blank screen for uncaught widget errors; show a
   // friendly fallback instead so failures are never invisible.
