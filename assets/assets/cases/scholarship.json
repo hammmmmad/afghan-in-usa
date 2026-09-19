@@ -1,0 +1,403 @@
+{
+  "id": "scholarship",
+  "icon": "school",
+  "color": "#0097A7",
+  "name": {
+    "fa": "بورسیه تحصیلی در آمریکا",
+    "en": "Scholarships in the U.S."
+  },
+  "title": {
+    "fa": "مراحل کامل بورسیه تحصیلی افغان‌ها در ایالات متحده",
+    "en": "Full Steps to Afghan Scholarships in the United States"
+  },
+  "stepCount": 23,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "انتخاب دانشگاه و بورسیه",
+        "en": "University choice and scholarship"
+      },
+      "body": {
+        "fa": "متقاضی دانشگاه‌ها و بورسیه‌های مناسب را بر اساس مقطع تحصیلی، رشته، سوابق آموزشی و شرایط مالی بررسی می‌کند.",
+        "en": "The applicant explores appropriate universities and scholarships based on the degree, discipline, educational records and financial conditions."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی شرایط بورسیه",
+        "en": "Review of scholarship conditions."
+      },
+      "body": {
+        "fa": "شرایط برنامه بررسی می‌شود؛ از جمله:\n- مدرک تحصیلی\n- معدل و ریزنمرات\n- سطح زبان انگلیسی\n- شرایط سنی، در صورت وجود\n- ملیت یا محل اقامت\n- شرایط مالی\n- مهلت درخواست",
+        "en": "Program conditions are reviewed, including:\nA degree of study.\n(a) and the\nLevel of English\nAge conditions, if applicable\nNationality or residence.\nFinancial conditions.\n- Application deadline"
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک",
+        "en": "Preparing evidence."
+      },
+      "body": {
+        "fa": "معمولاً مدارک زیر مورد نیاز است:\n- پاسپورت یا مدرک هویتی\n- دیپلوم و مدارک تحصیلی\n- ریزنمرات\n- رزومه یا CV\n- انگیزه‌نامه / Personal Statement\n- توصیه‌نامه\n- مدرک زبان، در صورت درخواست دانشگاه\n- مدارک مربوط به فعالیت‌های علمی، کاری یا اجتماعی\n- مدارک مالی، در صورت درخواست\n- عکس، در صورت نیاز",
+        "en": "Usually the following documents are required:\nPassport or identity degree\nDiploma and qualifications.\n-\nCV or CV\nPersonal Statement/ Personal Statement\nRecommendation of the letter.\nLanguage degree, if requested by the University\nEvidence of scientific, work or social activities\nFinancial documents, if requested\nPhoto, if needed."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "ایجاد حساب در سامانه دانشگاه یا بورسیه",
+        "en": "Create an account in the university or scholarship system."
+      },
+      "body": {
+        "fa": "متقاضی در پورتال رسمی دانشگاه یا برنامه بورسیه حساب ایجاد می‌کند و اطلاعات شخصی و تحصیلی خود را وارد می‌کند.",
+        "en": "The applicant creates an official university portal or account scholarship program and enters their personal and educational information."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "تکمیل فرم درخواست پذیرش",
+        "en": "Complete application form."
+      },
+      "body": {
+        "fa": "فرم آنلاین پذیرش دانشگاه تکمیل می‌شود. نام فرم بسته به دانشگاه متفاوت است و ممکن است از سامانه اختصاصی دانشگاه یا یک سامانه مشترک استفاده شود.",
+        "en": "The online form of university admission is complete. The name of the form varies depending on the university and may be used by the university’s proprietary system or a common system."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "تکمیل درخواست کمک‌هزینه یا بورسیه",
+        "en": "Completing the Application for Cost Aid or Scholarship"
+      },
+      "body": {
+        "fa": "اگر دانشگاه برای دانشجویان بین‌المللی بورسیه یا کمک‌هزینه ارائه کند، فرم مالی یا Scholarship/Financial Aid Application نیز تکمیل می‌شود.",
+        "en": "If the university offers scholarships or grants for international students, the financial aid application will also be completed."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "ارسال Personal Statement یا Essay",
+        "en": "Personal Statement or Essays"
+      },
+      "body": {
+        "fa": "متقاضی انگیزه‌نامه یا مقاله‌ای درباره اهداف تحصیلی، سوابق، اهداف آینده و دلایل انتخاب رشته و دانشگاه ارائه می‌کند.",
+        "en": "The applicant offers a letter or article on academic goals, records, future goals and reasons for the selection of disciplines and universities."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "ارسال توصیه‌نامه‌ها",
+        "en": "Send recommendations."
+      },
+      "body": {
+        "fa": "توصیه‌نامه‌های استادان، معلمان یا افراد واجد شرایط طبق دستور دانشگاه ارسال می‌شود.",
+        "en": "Recommendations of professors, teachers or qualified individuals are sent according to the university order."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "ارسال نمره زبان و آزمون‌ها",
+        "en": "Send language scores and tests."
+      },
+      "body": {
+        "fa": "در صورت درخواست دانشگاه، نتایج آزمون‌هایی مانند IELTS، TOEFL، Duolingo، SAT، GRE یا آزمون‌های مشابه ارائه می‌شود. نوع آزمون کاملاً به دانشگاه و مقطع بستگی دارد.",
+        "en": "If applying for the university, the results of tests such as IELTS, TOEFL, Duolingo, SAT, GRE or similar tests are provided. The type of test depends entirely on the university and the level."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "پرداخت یا درخواست معافیت از Application Fee",
+        "en": "Payment or Application of Application Fee"
+      },
+      "body": {
+        "fa": "برخی دانشگاه‌ها هزینه درخواست دارند و برخی برای دانشجویان واجد شرایط امکان Application Fee Waiver ارائه می‌کنند.",
+        "en": "Some universities have an application fee and some offer the application fee Waiver for eligible students."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "بررسی دانشگاه",
+        "en": "University review."
+      },
+      "body": {
+        "fa": "دانشگاه درخواست پذیرش و مدارک بورسیه را بررسی می‌کند و ممکن است برای مصاحبه یا مدارک تکمیلی با متقاضی تماس بگیرد.",
+        "en": "The University investigates the application of scholarship admissions and documents and may contact the applicant for an interview or supplemental documents."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "اعلام پذیرش و بورسیه",
+        "en": "Statement of acceptance and scholarship"
+      },
+      "body": {
+        "fa": "در صورت موفقیت، متقاضی نامه پذیرش دانشگاه و در صورت دریافت کمک‌هزینه، نامه Scholarship/Financial Aid Award را دریافت می‌کند.",
+        "en": "In the event of success, the applicant receives a letter of admission to the university and, if receiving the grant, the Scholarship/ Financial Aid Award."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحله ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "تأیید منابع مالی",
+        "en": "Proof of Financial Resources"
+      },
+      "body": {
+        "fa": "برای صدور مدارک مربوط به دانشجوی بین‌المللی، دانشگاه ممکن است مدارک مالی و میزان منابع قابل دسترس را بررسی کند.",
+        "en": "To issue evidence of international students, the University may examine financial evidence and the amount of available resources."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحله ۱۴",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "دریافت Form I-20",
+        "en": "Form I-20"
+      },
+      "body": {
+        "fa": "پس از پذیرش در یک دانشگاه تأییدشده برای دانشجویان بین‌المللی و تکمیل الزامات مالی، دانشگاه برای دانشجوی F-1 Form I-20 صادر می‌کند. وزارت خارجه آمریکا می‌گوید پس از پذیرش در مدرسه تأییدشده، دانشجو در SEVIS ثبت و Form I-20 صادر می‌شود.",
+        "en": "After admission to an accredited university for international students and the completion of financial requirements, the university is issued for F-1 Form I-20 student. The U.S. State Department says after admission to the approved school, the student is issued in SEVIS and Form I-20."
+      }
+    },
+    {
+      "index": 15,
+      "label": {
+        "fa": "مرحله ۱۵",
+        "en": "Step 15"
+      },
+      "title": {
+        "fa": "ثبت SEVIS و پرداخت I-901",
+        "en": "SEVIS and I-901 payments"
+      },
+      "body": {
+        "fa": "دانشجوی F-1 طبق دستورالعمل مربوط در SEVIS ثبت می‌شود و در صورت الزام، هزینه I-901 SEVIS پرداخت می‌شود.",
+        "en": "F-1 student is registered according to the guidelines in SEVIS, and if necessary, the I-901 SEVIS fee is paid."
+      }
+    },
+    {
+      "index": 16,
+      "label": {
+        "fa": "مرحله ۱۶",
+        "en": "Step 16"
+      },
+      "title": {
+        "fa": "تکمیل فرم DS-160",
+        "en": "Form DS-160"
+      },
+      "body": {
+        "fa": "برای درخواست ویزای دانشجویی F-1، متقاضی فرم DS-160 – Online Nonimmigrant Visa Application را به‌صورت آنلاین تکمیل می‌کند.",
+        "en": "To apply for F-1 student visa, the applicant completes the DS-160- Online Nonimmigrant Visa Application online."
+      }
+    },
+    {
+      "index": 17,
+      "label": {
+        "fa": "مرحله ۱۷",
+        "en": "Step 17"
+      },
+      "title": {
+        "fa": "تعیین وقت مصاحبه ویزا",
+        "en": "Set the visa interview time"
+      },
+      "body": {
+        "fa": "پس از تکمیل DS-160، متقاضی طبق دستورالعمل سفارت یا کنسولگری محل درخواست، برای مصاحبه ویزای دانشجویی اقدام می‌کند.",
+        "en": "Upon completion of the DS-160, the applicant will apply for student visa interview under the instructions of the Embassy or Consular Location."
+      }
+    },
+    {
+      "index": 18,
+      "label": {
+        "fa": "مرحله ۱۸",
+        "en": "Step 18"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک ویزا",
+        "en": "Prepare visa documents."
+      },
+      "body": {
+        "fa": "مدارک معمول شامل موارد زیر است:\n- پاسپورت\n- صفحه تأیید DS-160\n- رسید پرداخت هزینه ویزا، در صورت الزام\n- عکس مطابق شرایط ویزا\n- Form I-20\n- اطلاعات SEVIS\n- نامه پذیرش دانشگاه\n- مدارک تحصیلی\n- مدارک مربوط به تأمین هزینه تحصیل و زندگی، در صورت درخواست\nوزارت خارجه آمریکا Form I-20، تأییدیه DS-160، پاسپورت و مدارک مربوط به توانایی پرداخت هزینه‌های تحصیل و زندگی را از مدارک مهم ویزای دانشجویی می‌داند.",
+        "en": "Common documents include:\npassport.\nDS-160 confirmation page\nVisa fee payment receipt, if required\nPhoto in accordance with visa terms\nForm I-20\nData from SEVIS\nThe University Admission Letter\n- The degree of study.\nDocuments related to the cost of education and life, if requested\nThe U.S. Department of State Form I-20 recognizes the DS-160 approval, passport and documents related to the ability to pay for education and life costs from important student visa documents."
+      }
+    },
+    {
+      "index": 19,
+      "label": {
+        "fa": "مرحله ۱۹",
+        "en": "Step 19"
+      },
+      "title": {
+        "fa": "مصاحبه ویزای F-1",
+        "en": "F-1 visa interview"
+      },
+      "body": {
+        "fa": "متقاضی در مصاحبه شرکت می‌کند و افسر کنسولی شرایط تحصیل، مدارک و صلاحیت دریافت ویزای دانشجویی را بررسی می‌کند.",
+        "en": "The applicant participates in the interview and the consular officer investigates the qualifications and qualifications of the student visa."
+      }
+    },
+    {
+      "index": 20,
+      "label": {
+        "fa": "مرحله ۲۰",
+        "en": "Step 20"
+      },
+      "title": {
+        "fa": "بررسی اداری در صورت نیاز",
+        "en": "Office check if needed."
+      },
+      "body": {
+        "fa": "برخی پرونده‌ها ممکن است پس از مصاحبه نیازمند بررسی اداری بیشتری باشند.",
+        "en": "Some cases may require more administrative examination after the interview."
+      }
+    },
+    {
+      "index": 21,
+      "label": {
+        "fa": "مرحله ۲۱",
+        "en": "Step 21"
+      },
+      "title": {
+        "fa": "صدور ویزا",
+        "en": "Visa issuance"
+      },
+      "body": {
+        "fa": "در صورت تأیید، ویزای F-1 صادر می‌شود.",
+        "en": "If approved, the F-1 visa is issued."
+      }
+    },
+    {
+      "index": 22,
+      "label": {
+        "fa": "مرحله ۲۲",
+        "en": "Step 22"
+      },
+      "title": {
+        "fa": "آماده‌سازی سفر",
+        "en": "Ready for travel."
+      },
+      "body": {
+        "fa": "پس از دریافت ویزا، متقاضی برای سفر، محل اقامت و آغاز تحصیل آماده می‌شود.",
+        "en": "After receiving a visa, the applicant is prepared for travel, accommodation and the start of the study."
+      }
+    },
+    {
+      "index": 23,
+      "label": {
+        "fa": "مرحله ۲۳",
+        "en": "Step 23"
+      },
+      "title": {
+        "fa": "ورود به آمریکا و آغاز تحصیل",
+        "en": "Entry to America and the beginning of education"
+      },
+      "body": {
+        "fa": "دانشجو طبق شرایط ویزا و مقررات دانشگاه وارد آمریکا شده و تحصیل خود را آغاز می‌کند.",
+        "en": "The student enters the U.S. under visa terms and university regulations and begins his studies."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "فرم‌ها و اسناد مهم",
+        "en": "Important forms and documents."
+      },
+      "body": {
+        "fa": "فرم‌های اصلی و مدارک پشتیبان باید طبق فهرست رسمی دانشگاه یا ادارهٔ مربوط آماده و ارائه شوند.",
+        "en": "The main forms and supporting documents must be prepared and submitted according to the official checklist of the university or the relevant office."
+      }
+    },
+    {
+      "title": {
+        "fa": "فرم‌های مربوط به بورسیه و پذیرش",
+        "en": "Forms related to scholarships and acceptance"
+      },
+      "body": {
+        "fa": "- Application Form — فرم درخواست دانشگاه\n- Scholarship Application — فرم درخواست بورسیه\n- Financial Aid Application — درخواست کمک مالی، در صورت وجود\n- Application Fee Waiver — درخواست معافیت از هزینه درخواست، در صورت وجود\n- Personal Statement / Essay\n- Recommendation Forms",
+        "en": "Application Form – Application Form of University Application\nScholarship Application – Application Form\nFinancial Aid Application – Application for financial assistance if applicable\nApplication Waiver – Application for exemption from the application fee, if applicable\nPersonal Statement / Essay\nRecommendation Forms"
+      }
+    },
+    {
+      "title": {
+        "fa": "فرم‌ها و اسناد مرحله ویزای دانشجویی",
+        "en": "Forms and student visa documents"
+      },
+      "body": {
+        "fa": "- Form I-20\n- SEVIS / I-901\n- Form DS-160\n- پاسپورت\n- نامه پذیرش دانشگاه\n- مدارک تحصیلی\n- مدارک مالی\nForm DS-160 فرم اصلی درخواست ویزای غیرمهاجرتی است و برای ویزای دانشجویی نیز استفاده می‌شود.",
+        "en": "Form I-20\nSEVIS / I-901\nForm DS-160\npassport.\nThe University Admission Letter\n- The degree of study.\nFinancial evidence.\nForm DS-160 is the main form of nonimmigrant visa application and is also used for student visa."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکته دربارهٔ فرم‌های بورسیه",
+        "en": "Note on scholarship forms"
+      },
+      "body": {
+        "fa": "فرم‌های بورسیه ثابت نیستند و هر دانشگاه یا بنیاد می‌تواند فرم مخصوص خود را داشته باشد؛ بنابراین نباید فرم خاصی را که دانشگاه درخواست نکرده است، به‌عنوان «فرم اجباری بورسیه افغان‌ها» در نظر گرفت.",
+        "en": "Scholarship forms are not fixed; each university or foundation may have its own form. A specific form that the university has not requested should therefore not be treated as a mandatory \"Afghan scholarship form\"."
+      }
+    }
+  ]
+}

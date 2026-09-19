@@ -1,0 +1,263 @@
+{
+  "id": "ir_adjustment_of_status",
+  "icon": "refresh",
+  "color": "#5E35B1",
+  "kind": "iranian",
+  "name": {
+    "fa": "Adjustment of Status",
+    "en": "Adjustment of Status"
+  },
+  "title": {
+    "fa": "Adjustment of Status — اقامت دائم از داخل آمریکا",
+    "en": "Adjustment of Status — Permanent Residence from Inside the U.S."
+  },
+  "description": {
+    "fa": "Adjustment of Status — اقامت دائم از داخل آمریکا\nبرای شخصی که در آمریکا حضور دارد و یک مبنای قانونی برای دریافت اقامت دائم از داخل کشور دارد.",
+    "en": "Adjustment of Status — Permanent Residence from Inside the U.S.\nFor someone who is present in the U.S. and has a lawful basis to obtain permanent residence from within the country."
+  },
+  "stepCount": 14,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "Adjustment of Status — اقامت دائم از داخل آمریکا\nبرای شخصی که در آمریکا حضور دارد و یک مبنای قانونی برای دریافت اقامت دائم از داخل کشور دارد.",
+        "en": "Adjustment of Status — Permanent Residence from Inside the U.S.\nFor someone who is present in the U.S. and has a lawful basis to obtain permanent residence from within the country."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "بررسی مبنا",
+        "en": "Evaluating the Basis"
+      },
+      "body": {
+        "fa": "مبنای اقامت دائم و شرایط شخص بررسی می‌شود.",
+        "en": "The basis for permanent residence and the person's circumstances are evaluated."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "بررسی وضعیت فعلی",
+        "en": "Reviewing Current Status"
+      },
+      "body": {
+        "fa": "وضعیت مهاجرتی، ورود، سابقه و هر مانع قانونی بررسی می‌شود.",
+        "en": "Immigration status, entry, history, and any legal barriers are reviewed."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "ثبت درخواست",
+        "en": "Filing the Application"
+      },
+      "body": {
+        "fa": "درخواست اقامت از داخل آمریکا آغاز می‌شود.",
+        "en": "The application for residence from inside the U.S. is initiated."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "رسید و بررسی اولیه",
+        "en": "Receipt and Initial Review"
+      },
+      "body": {
+        "fa": "ثبت درخواست و کامل بودن اولیه بررسی می‌شود.",
+        "en": "The filing and its initial completeness are reviewed."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "بیومتریک",
+        "en": "Biometrics"
+      },
+      "body": {
+        "fa": "در صورت نیاز انجام می‌شود.",
+        "en": "Done if required."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "بررسی پرونده",
+        "en": "Case Review"
+      },
+      "body": {
+        "fa": "سوابق، صلاحیت و اطلاعات پرونده بررسی می‌شود.",
+        "en": "History, eligibility, and case information are reviewed."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "درخواست مدرک",
+        "en": "Request for Evidence"
+      },
+      "body": {
+        "fa": "در صورت وجود نقص، اطلاعات بیشتر خواسته می‌شود.",
+        "en": "If anything is missing, additional information is requested."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "مصاحبه",
+        "en": "Interview"
+      },
+      "body": {
+        "fa": "در صورت نیاز مصاحبه انجام می‌شود.",
+        "en": "An interview is conducted if required."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "بررسی امنیتی",
+        "en": "Security Checks"
+      },
+      "body": {
+        "fa": "بررسی‌های لازم تکمیل می‌شود.",
+        "en": "The required checks are completed."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحلهٔ ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "تصمیم",
+        "en": "Decision"
+      },
+      "body": {
+        "fa": "تأیید یا عدم تأیید صادر می‌شود.",
+        "en": "An approval or denial is issued."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحلهٔ ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "پس از تأیید",
+        "en": "After Approval"
+      },
+      "body": {
+        "fa": "شخص وضعیت اقامت دائم را طبق تصمیم دریافت می‌کند.",
+        "en": "The person receives permanent resident status in accordance with the decision."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحلهٔ ۱۴",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "تأیید یا عدم تأیید صادر می‌شود.",
+        "en": "An approval or denial is issued."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ]
+}

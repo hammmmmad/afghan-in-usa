@@ -1,0 +1,233 @@
+{
+  "id": "ir_l1_l2",
+  "icon": "card",
+  "color": "#2E7D32",
+  "kind": "iranian",
+  "name": {
+    "fa": "L-1 / L-2",
+    "en": "L-1 / L-2"
+  },
+  "title": {
+    "fa": "L-1 / L-2 — انتقال درون‌شرکتی",
+    "en": "L-1 / L-2 — Intracompany Transfer"
+  },
+  "description": {
+    "fa": "L-1 / L-2 — انتقال درون‌شرکتی\nبرای انتقال واجد شرایط از یک شرکت مرتبط خارجی به واحد واجد شرایط در آمریکا.",
+    "en": "L-1 / L-2 — Intracompany Transfer\nFor a qualifying transfer from a related foreign company to a qualifying entity in the U.S."
+  },
+  "stepCount": 12,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "L-1 / L-2 — انتقال درون‌شرکتی\nبرای انتقال واجد شرایط از یک شرکت مرتبط خارجی به واحد واجد شرایط در آمریکا.",
+        "en": "L-1 / L-2 — Intracompany Transfer\nFor a qualifying transfer from a related foreign company to a qualifying entity in the U.S."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "بررسی رابطه شرکت‌ها",
+        "en": "Reviewing the Corporate Relationship"
+      },
+      "body": {
+        "fa": "رابطه قانونی و عملی شرکت‌ها و سابقه کاری متقاضی بررسی می‌شود.",
+        "en": "The legal and operational relationship between the companies and the applicant's work history are reviewed."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "بررسی شغل",
+        "en": "Reviewing the Position"
+      },
+      "body": {
+        "fa": "موقعیت مدیریتی/تخصصی و سابقه کار مرتبط بررسی می‌شود.",
+        "en": "The managerial or specialized role and the relevant work experience are reviewed."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "شروع پرونده توسط شرکت",
+        "en": "Company Initiates the Case"
+      },
+      "body": {
+        "fa": "شرکت مرحله اولیه پرونده را آغاز می‌کند.",
+        "en": "The company starts the initial step of the case."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "بررسی اولیه",
+        "en": "Initial Review"
+      },
+      "body": {
+        "fa": "پرونده بررسی و در صورت نیاز تکمیل می‌شود.",
+        "en": "The case is reviewed and completed if necessary."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "مرحله کنسولی",
+        "en": "Consular Stage"
+      },
+      "body": {
+        "fa": "متقاضی برای ویزا و مصاحبه آماده می‌شود.",
+        "en": "The applicant prepares for the visa and the interview."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "مصاحبه",
+        "en": "Interview"
+      },
+      "body": {
+        "fa": "رابطه شرکت‌ها، سابقه کار و شغل آمریکا بررسی می‌شود.",
+        "en": "The corporate relationship, the work history, and the U.S. position are reviewed."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "بررسی اداری",
+        "en": "Administrative Processing"
+      },
+      "body": {
+        "fa": "در صورت نیاز بررسی تکمیلی انجام می‌شود.",
+        "en": "Additional review is conducted if needed."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "تصمیم و ورود",
+        "en": "Decision and Entry"
+      },
+      "body": {
+        "fa": "پس از تأیید، سفر و شروع فعالیت طبق شرایط L انجام می‌شود.",
+        "en": "After approval, travel and the start of the activity follow the L conditions."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "L-2",
+        "en": "L-2"
+      },
+      "body": {
+        "fa": "اعضای خانواده واجد شرایط مراحل مربوط به همراهی را طی می‌کنند.",
+        "en": "Qualifying family members go through the steps related to accompanying the principal applicant."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحلهٔ ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "پس از تأیید، سفر و شروع فعالیت طبق شرایط L انجام می‌شود.",
+        "en": "After approval, travel and the start of the activity follow the L conditions."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ]
+}

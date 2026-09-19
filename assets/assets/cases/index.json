@@ -1,0 +1,484 @@
+{
+  "cases": [
+    {
+      "id": "siv",
+      "icon": "shield",
+      "color": "#1E88E5",
+      "name": {
+        "fa": "SIV",
+        "en": "SIV"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 14,
+      "file": "assets/cases/siv.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "p1",
+      "icon": "airplane",
+      "color": "#8E24AA",
+      "name": {
+        "fa": "P-1",
+        "en": "P-1"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 14,
+      "file": "assets/cases/p1.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "p2",
+      "icon": "airplane",
+      "color": "#5E35B1",
+      "name": {
+        "fa": "P-2",
+        "en": "P-2"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 12,
+      "file": "assets/cases/p2.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "i730",
+      "icon": "family",
+      "color": "#00897B",
+      "name": {
+        "fa": "I-730 (پیوستن خانواده)",
+        "en": "I-730 (Family Reunification)"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 11,
+      "file": "assets/cases/i730.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "parole",
+      "icon": "heart",
+      "color": "#E53935",
+      "name": {
+        "fa": "پارول بشردوستانه",
+        "en": "Humanitarian Parole"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 12,
+      "file": "assets/cases/parole.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "re_parole",
+      "icon": "refresh",
+      "color": "#F4511E",
+      "name": {
+        "fa": "تمدید پارول (Re-Parole)",
+        "en": "Re-Parole"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 12,
+      "file": "assets/cases/re_parole.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "dv_lottery",
+      "icon": "diamond",
+      "color": "#FB8C00",
+      "name": {
+        "fa": "لاتری DV",
+        "en": "DV Lottery"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 14,
+      "file": "assets/cases/dv_lottery.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "sponsor_citizen",
+      "icon": "handshake",
+      "color": "#43A047",
+      "name": {
+        "fa": "اسپانسری توسط شهروند آمریکا",
+        "en": "Sponsorship by U.S. Citizen"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 17,
+      "file": "assets/cases/sponsor_citizen.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "sponsor_greencard",
+      "icon": "card",
+      "color": "#2E7D32",
+      "name": {
+        "fa": "اسپانسری گرین‌کارت / SIV",
+        "en": "Sponsorship by Green Card / SIV"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 17,
+      "file": "assets/cases/sponsor_greencard.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "k1",
+      "icon": "ring",
+      "color": "#D81B60",
+      "name": {
+        "fa": "ویزای K-1 (نامزد)",
+        "en": "K-1 Fiancé(e) Visa"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 15,
+      "file": "assets/cases/k1.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "cr1",
+      "icon": "rings",
+      "color": "#C2185B",
+      "name": {
+        "fa": "ویزای CR-1 (همسر)",
+        "en": "CR-1 Spouse Visa"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 17,
+      "file": "assets/cases/cr1.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "lautenberg",
+      "icon": "scale",
+      "color": "#3949AB",
+      "name": {
+        "fa": "اصلاحیه Lautenberg",
+        "en": "Lautenberg Amendment"
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 14,
+      "file": "assets/cases/lautenberg.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "scholarship",
+      "icon": "school",
+      "color": "#0097A7",
+      "name": {
+        "fa": "بورسیه تحصیلی در آمریکا",
+        "en": "Scholarships in the U.S."
+      },
+      "subtitle": {
+        "fa": "مراحل ثبت نام و طی مراحل اداری",
+        "en": "Registration & administrative steps"
+      },
+      "stepCount": 23,
+      "file": "assets/cases/scholarship.json",
+      "kind": "afghan"
+    },
+    {
+      "id": "ir_b1_b2",
+      "kind": "iranian",
+      "icon": "airplane",
+      "color": "#00695C",
+      "name": {
+        "fa": "B-1 / B-2",
+        "en": "B-1 / B-2"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 12,
+      "file": "assets/cases/ir_b1_b2.json"
+    },
+    {
+      "id": "ir_f1_f2",
+      "kind": "iranian",
+      "icon": "school",
+      "color": "#6A1B9A",
+      "name": {
+        "fa": "F-1 / F-2",
+        "en": "F-1 / F-2"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 12,
+      "file": "assets/cases/ir_f1_f2.json"
+    },
+    {
+      "id": "ir_j1_j2",
+      "kind": "iranian",
+      "icon": "school",
+      "color": "#283593",
+      "name": {
+        "fa": "J-1 / J-2",
+        "en": "J-1 / J-2"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 11,
+      "file": "assets/cases/ir_j1_j2.json"
+    },
+    {
+      "id": "ir_m1_m2",
+      "kind": "iranian",
+      "icon": "school",
+      "color": "#4527A0",
+      "name": {
+        "fa": "M-1 / M-2",
+        "en": "M-1 / M-2"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 11,
+      "file": "assets/cases/ir_m1_m2.json"
+    },
+    {
+      "id": "ir_h1b_h4",
+      "kind": "iranian",
+      "icon": "card",
+      "color": "#00838F",
+      "name": {
+        "fa": "H-1B / H-4",
+        "en": "H-1B / H-4"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 12,
+      "file": "assets/cases/ir_h1b_h4.json"
+    },
+    {
+      "id": "ir_l1_l2",
+      "kind": "iranian",
+      "icon": "card",
+      "color": "#2E7D32",
+      "name": {
+        "fa": "L-1 / L-2",
+        "en": "L-1 / L-2"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 12,
+      "file": "assets/cases/ir_l1_l2.json"
+    },
+    {
+      "id": "ir_o",
+      "kind": "iranian",
+      "icon": "diamond",
+      "color": "#AD1457",
+      "name": {
+        "fa": "O",
+        "en": "O Visa"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 12,
+      "file": "assets/cases/ir_o.json"
+    },
+    {
+      "id": "ir_p_q_r",
+      "kind": "iranian",
+      "icon": "handshake",
+      "color": "#EF6C00",
+      "name": {
+        "fa": "P / Q / R",
+        "en": "P / Q / R Visas"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 11,
+      "file": "assets/cases/ir_p_q_r.json"
+    },
+    {
+      "id": "ir_c1_d",
+      "kind": "iranian",
+      "icon": "airplane",
+      "color": "#37474F",
+      "name": {
+        "fa": "C-1 / D",
+        "en": "C-1 / D"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 10,
+      "file": "assets/cases/ir_c1_d.json"
+    },
+    {
+      "id": "ir_k1",
+      "kind": "iranian",
+      "icon": "ring",
+      "color": "#C2185B",
+      "name": {
+        "fa": "K-1",
+        "en": "K-1"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 14,
+      "file": "assets/cases/ir_k1.json"
+    },
+    {
+      "id": "ir_immediate_relatives",
+      "kind": "iranian",
+      "icon": "family",
+      "color": "#1E88E5",
+      "name": {
+        "fa": "IR-1 / CR-1 / IR-2 / CR-2 / IR-5",
+        "en": "Immediate Relatives (IR)"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 14,
+      "file": "assets/cases/ir_immediate_relatives.json"
+    },
+    {
+      "id": "ir_family_preference",
+      "kind": "iranian",
+      "icon": "family",
+      "color": "#0277BD",
+      "name": {
+        "fa": "F1 / F2A / F2B / F3 / F4",
+        "en": "Family Preference"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 13,
+      "file": "assets/cases/ir_family_preference.json"
+    },
+    {
+      "id": "ir_employment_based",
+      "kind": "iranian",
+      "icon": "card",
+      "color": "#1565C0",
+      "name": {
+        "fa": "EB-1 / EB-2 / EB-3",
+        "en": "Employment Based"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 13,
+      "file": "assets/cases/ir_employment_based.json"
+    },
+    {
+      "id": "ir_eb4_eb5",
+      "kind": "iranian",
+      "icon": "diamond",
+      "color": "#00897B",
+      "name": {
+        "fa": "EB-4 / EB-5",
+        "en": "EB-4 / EB-5"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 13,
+      "file": "assets/cases/ir_eb4_eb5.json"
+    },
+    {
+      "id": "ir_adjustment_of_status",
+      "kind": "iranian",
+      "icon": "refresh",
+      "color": "#5E35B1",
+      "name": {
+        "fa": "Adjustment of Status",
+        "en": "Adjustment of Status"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 14,
+      "file": "assets/cases/ir_adjustment_of_status.json"
+    },
+    {
+      "id": "ir_t_u",
+      "kind": "iranian",
+      "icon": "heart",
+      "color": "#6D4C41",
+      "name": {
+        "fa": "T / U",
+        "en": "T / U Visas"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 13,
+      "file": "assets/cases/ir_t_u.json"
+    },
+    {
+      "id": "ir_humanitarian_parole",
+      "kind": "iranian",
+      "icon": "shield",
+      "color": "#E64A19",
+      "name": {
+        "fa": "Humanitarian Parole",
+        "en": "Humanitarian Parole"
+      },
+      "subtitle": {
+        "fa": "راهنمای مرحله‌به‌مرحله ویژه اتباع ایران",
+        "en": "Step-by-step guide for Iranian applicants"
+      },
+      "stepCount": 13,
+      "file": "assets/cases/ir_humanitarian_parole.json"
+    }
+  ]
+}

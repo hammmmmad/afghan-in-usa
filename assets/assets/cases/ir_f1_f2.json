@@ -1,0 +1,233 @@
+{
+  "id": "ir_f1_f2",
+  "icon": "school",
+  "color": "#6A1B9A",
+  "kind": "iranian",
+  "name": {
+    "fa": "F-1 / F-2",
+    "en": "F-1 / F-2"
+  },
+  "title": {
+    "fa": "F-1 / F-2 — تحصیل",
+    "en": "F-1 / F-2 — Study"
+  },
+  "description": {
+    "fa": "F-1 / F-2 — تحصیل\nبرای دانشجوی اصلی و اعضای خانواده واجد شرایط او.",
+    "en": "F-1 / F-2 — Study\nFor the principal student and qualifying family members."
+  },
+  "stepCount": 12,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "F-1 / F-2 — تحصیل\nبرای دانشجوی اصلی و اعضای خانواده واجد شرایط او.",
+        "en": "F-1 / F-2 — Study\nFor the principal student and qualifying family members."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "پذیرش آموزشی",
+        "en": "Academic Admission"
+      },
+      "body": {
+        "fa": "مؤسسه و برنامه مناسب انتخاب و پذیرش گرفته می‌شود.",
+        "en": "A suitable institution and program are selected, and admission is obtained."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "آماده‌سازی مالی و تحصیلی",
+        "en": "Financial and Academic Preparation"
+      },
+      "body": {
+        "fa": "توانایی تأمین هزینه‌ها، سابقه تحصیلی و هدف واقعی تحصیل آماده و قابل توضیح می‌شود.",
+        "en": "The ability to cover the costs, the academic record, and the genuine purpose of study are prepared and made easy to explain."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "شروع مرحله ویزا",
+        "en": "Starting the Visa Stage"
+      },
+      "body": {
+        "fa": "پس از آماده‌شدن شرایط آموزشی، مرحله کنسولی آغاز می‌شود.",
+        "en": "Once the academic requirements are in place, the consular stage begins."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "تعیین وقت",
+        "en": "Scheduling the Appointment"
+      },
+      "body": {
+        "fa": "محل و وقت مصاحبه طبق مقررات جاری انتخاب می‌شود.",
+        "en": "The location and the interview appointment are selected according to current regulations."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "مصاحبه",
+        "en": "Interview"
+      },
+      "body": {
+        "fa": "هدف تحصیل، برنامه آموزشی، منابع مالی و قصد رعایت شرایط وضعیت دانشجویی بررسی می‌شود.",
+        "en": "The purpose of study, the academic program, financial resources, and the intent to maintain student status are reviewed."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "بررسی اداری",
+        "en": "Administrative Processing"
+      },
+      "body": {
+        "fa": "در صورت نیاز، پرونده برای بررسی بیشتر نگه داشته می‌شود.",
+        "en": "If needed, the case is kept open for further review."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تصمیم و صدور",
+        "en": "Decision and Issuance"
+      },
+      "body": {
+        "fa": "در صورت تأیید، ویزا صادر می‌شود.",
+        "en": "If approved, a visa is issued."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "سفر و ورود",
+        "en": "Travel and Entry"
+      },
+      "body": {
+        "fa": "دانشجو باید طبق شرایط ورود و وضعیت F عمل کند و تحصیل را طبق برنامه دنبال کند.",
+        "en": "The student must comply with the conditions of entry and F status and pursue the study program as planned."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "F-2",
+        "en": "F-2"
+      },
+      "body": {
+        "fa": "همسر یا فرزند واجد شرایط نیز باید رابطه خانوادگی و شرایط مربوط را اثبات کند.",
+        "en": "A qualifying spouse or child must also prove the family relationship and meet the related requirements."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحلهٔ ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "در صورت تأیید، ویزا صادر می‌شود.",
+        "en": "If approved, a visa is issued."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ]
+}

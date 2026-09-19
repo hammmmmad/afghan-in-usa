@@ -1,0 +1,272 @@
+{
+  "id": "sponsor_citizen",
+  "icon": "handshake",
+  "color": "#43A047",
+  "name": {
+    "fa": "اسپانسری توسط شهروند آمریکا",
+    "en": "Sponsorship by U.S. Citizen"
+  },
+  "title": {
+    "fa": "مراحل اسپانسری خانوادگی توسط شهروند آمریکا",
+    "en": "Family sponsorship by U.S. citizen"
+  },
+  "stepCount": 17,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "بررسی رابطه خانوادگی",
+        "en": "Review of family relationship."
+      },
+      "body": {
+        "fa": "شهروند آمریکا ابتدا بررسی می‌کند که فرد موردنظر در کدام گروه خانوادگی قرار می‌گیرد؛ مانند:\n- همسر\n- فرزند\n- والدین\n- خواهر یا برادر",
+        "en": "The U.S. citizen first investigates which family group the person is in, such as:\nThe wife.\nchild.\nparents.\nSister or brother."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی شرایط اسپانسر",
+        "en": "Review of Sponsorship Conditions"
+      },
+      "body": {
+        "fa": "شهروند آمریکایی باید شرایط لازم برای ثبت درخواست خانوادگی را داشته باشد و مدارک مربوط به تابعیت یا شهروندی خود را ارائه کند.",
+        "en": "The U.S. citizen must have the requirements to register a family application and provide proof of citizenship or citizenship."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک",
+        "en": "Preparing evidence."
+      },
+      "body": {
+        "fa": "مدارک هویتی، مدرک شهروندی آمریکا، سند ازدواج یا تولد و سایر مدارکی که رابطه خانوادگی را اثبات می‌کند آماده می‌شود.",
+        "en": "Identity documents, U.S. citizenship, marriage document or birth and other documents that prove family relationship are prepared."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "ثبت فرم I-130",
+        "en": "Form I-130"
+      },
+      "body": {
+        "fa": "شهروند آمریکا برای عضو خانواده واجد شرایط، Form I-130, Petition for Alien Relative را به USCIS ارائه می‌کند.",
+        "en": "The U.S. citizen provides USCIS for a qualified family member, Form I-130."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "دریافت رسید پرونده",
+        "en": "receipt of the case."
+      },
+      "body": {
+        "fa": "پس از ثبت درخواست، USCIS رسید پرونده را صادر می‌کند و پرونده وارد روند بررسی می‌شود.",
+        "en": "After the application registration, USCIS will issue the file and the case will be entered into the process."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "بررسی توسط USCIS",
+        "en": "Review by USCIS"
+      },
+      "body": {
+        "fa": "USCIS مدارک و رابطه خانوادگی را بررسی می‌کند و در صورت نیاز ممکن است مدارک یا توضیحات بیشتری درخواست کند.",
+        "en": "USCIS investigates family documents and relationships, and may request more documents or explanations if needed."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "تأیید I-130",
+        "en": "I-130"
+      },
+      "body": {
+        "fa": "در صورت تأیید، پرونده برای ادامه روند مهاجرتی به مرحله بعد منتقل می‌شود. تأیید I-130 به‌تنهایی به معنای صدور ویزا نیست.",
+        "en": "If confirmed, the case is transferred to the next stage to continue the immigration process. I-130 approval alone does not mean visa issuance."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "انتظار برای شماره ویزا",
+        "en": "Waiting for visa number"
+      },
+      "body": {
+        "fa": "برای بعضی اعضای خانواده، مانند خواهر و برادر شهروند آمریکا، تعداد ویزا محدود است و متقاضی باید بر اساس Visa Bulletin منتظر در دسترس شدن شماره ویزا باشد.",
+        "en": "For some family members, such as the sister and brother of the U.S. citizen, the number of visas is limited and the applicant must wait for the visa number available on Visa Bulletin."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تشکیل پرونده در NVC",
+        "en": "filing in NVC"
+      },
+      "body": {
+        "fa": "وقتی پرونده برای مرحله کنسولی آماده باشد، National Visa Center (NVC) روند جمع‌آوری فرم‌ها، هزینه‌ها و مدارک لازم را آغاز می‌کند.",
+        "en": "When the case is ready for the consular phase, National Visa Center (NVC) starts collecting the necessary forms, costs and documents."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "تکمیل فرم DS-260",
+        "en": "Form DS-260"
+      },
+      "body": {
+        "fa": "متقاضی مهاجرتی و اعضای واجد شرایط خانواده، در صورت نیاز، فرم DS-260 را تکمیل می‌کنند.",
+        "en": "The immigrant and qualified family members complete the DS-260 form if needed."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "فرم حمایت مالی",
+        "en": "form of financial support."
+      },
+      "body": {
+        "fa": "اسپانسر باید در صورت نیاز Form I-864, Affidavit of Support را ارائه کند و مدارک مالی لازم را برای اثبات توانایی حمایت مالی ارائه دهد.",
+        "en": "The sponsor must provide support if the Form I-864 needs, Affidavit of Support, and provide the necessary financial evidence to demonstrate financial support capability."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "ارسال مدارک مدنی",
+        "en": "Sending civil documents."
+      },
+      "body": {
+        "fa": "مدارک مورد نیاز مانند پاسپورت، شناسنامه/اسناد تولد، سند ازدواج، گواهی‌های لازم و سایر مدارک پرونده ارائه می‌شود.",
+        "en": "The required documents such as passport, birth certificate, marriage document, necessary certificates and other documents are provided."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحله ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "معاینات پزشکی",
+        "en": "Medical examinations."
+      },
+      "body": {
+        "fa": "متقاضی طبق دستورالعمل سفارت یا کنسولگری، معاینات پزشکی را نزد پزشک مورد تأیید انجام می‌دهد.",
+        "en": "Under the Embassy or consulate instructions, the applicant conducts medical examinations with the approved doctor."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحله ۱۴",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "مصاحبه سفارت",
+        "en": "Interview of the Embassy"
+      },
+      "body": {
+        "fa": "متقاضی در زمان تعیین‌شده برای مصاحبه حاضر می‌شود و افسر کنسولی مدارک و شرایط پرونده را بررسی می‌کند.",
+        "en": "The applicant is present at the time specified for the interview and the consular officer investigates the documents and conditions of the case."
+      }
+    },
+    {
+      "index": 15,
+      "label": {
+        "fa": "مرحله ۱۵",
+        "en": "Step 15"
+      },
+      "title": {
+        "fa": "بررسی‌های امنیتی و اداری",
+        "en": "Security and administrative reviews."
+      },
+      "body": {
+        "fa": "در صورت نیاز، پرونده وارد بررسی‌های امنیتی یا Administrative Processing می‌شود.",
+        "en": "If needed, the case will be entered into security or Administrative Processing."
+      }
+    },
+    {
+      "index": 16,
+      "label": {
+        "fa": "مرحله ۱۶",
+        "en": "Step 16"
+      },
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final decision."
+      },
+      "body": {
+        "fa": "در صورت تأیید تمام شرایط، ویزای مهاجرتی صادر می‌شود. در صورت وجود مشکل یا مانع قانونی، ممکن است صدور ویزا به تعویق بیفتد یا رد شود.",
+        "en": "If all conditions are approved, the immigrant visa is issued. If there is a problem or legal barrier, visa issuance may be delayed or rejected."
+      }
+    },
+    {
+      "index": 17,
+      "label": {
+        "fa": "مرحله ۱۷",
+        "en": "Step 17"
+      },
+      "title": {
+        "fa": "سفر به آمریکا",
+        "en": "Travel to America."
+      },
+      "body": {
+        "fa": "پس از صدور ویزا، متقاضی می‌تواند مطابق شرایط و اعتبار ویزا به آمریکا سفر کند و مراحل ورود و اقامت دائم خود را تکمیل نماید.",
+        "en": "After visa issuance, the applicant can travel to the U.S. in accordance with the terms and validity of the visa and complete their entry and permanent residency procedures."
+      }
+    }
+  ],
+  "notes": []
+}

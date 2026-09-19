@@ -1,0 +1,227 @@
+{
+  "id": "lautenberg",
+  "icon": "scale",
+  "color": "#3949AB",
+  "name": {
+    "fa": "اصلاحیه Lautenberg",
+    "en": "Lautenberg Amendment"
+  },
+  "title": {
+    "fa": "مراحل برنامه Lautenberg Amendment برای ایرانیان",
+    "en": "Lautenberg Amendment Program for Iranians"
+  },
+  "stepCount": 14,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "بررسی شرایط",
+        "en": "Review of conditions."
+      },
+      "body": {
+        "fa": "متقاضی بررسی می‌کند که آیا در یکی از گروه‌های واجد شرایط Lautenberg قرار می‌گیرد. این مسیر برای برخی اقلیت‌های مذهبی تحت USRAP، از جمله گروه‌هایی از اقلیت‌های مذهبی ایران، مورد استفاده قرار گرفته است.",
+        "en": "The applicant investigates whether it is located in one of the eligible Lautenberg groups. This route has been used for some religious minorities under USRAP, including groups of Iranian religious minorities."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "ثبت یا ارجاع پرونده به USRAP",
+        "en": "Registration or referral of the case to USRAP"
+      },
+      "body": {
+        "fa": "پرونده برای بررسی در U.S. Refugee Admissions Program (USRAP) وارد روند مربوط می‌شود.",
+        "en": "Case for review at U.S. Refugee Admissions Program (USRAP) enters the process."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "تشکیل پرونده در مرکز پردازش",
+        "en": "Form case in the processing center."
+      },
+      "body": {
+        "fa": "اطلاعات هویتی، خانوادگی و سایر اطلاعات مورد نیاز توسط مرکز پشتیبانی اسکان مجدد (RSC) جمع‌آوری و پرونده برای مراحل بعدی آماده می‌شود.",
+        "en": "Identity, family and other information required by the Centre for Resettlement Support (RSC) collects and files for the next steps."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "ارائه مدارک",
+        "en": "Presentation of documents."
+      },
+      "body": {
+        "fa": "مدارک هویتی، مدارک مربوط به مذهب، اسناد خانوادگی و سایر مدارک مورد نیاز پرونده ارائه می‌شود.",
+        "en": "Identity documents, evidence of religion, family documents and other documents required by the case."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "بررسی اولیه",
+        "en": "Early review."
+      },
+      "body": {
+        "fa": "پرونده از نظر شرایط برنامه و اطلاعات ارائه‌شده بررسی می‌شود.",
+        "en": "The case is reviewed in terms of the program and information provided."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "بررسی‌های امنیتی",
+        "en": "Security reviews."
+      },
+      "body": {
+        "fa": "متقاضی و اعضای واجد شرایط خانواده تحت بررسی‌های امنیتی و سوابق قرار می‌گیرند.",
+        "en": "The applicant and family members are subject to security checks and records."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "مصاحبه پناهندگی",
+        "en": "Refugee interview."
+      },
+      "body": {
+        "fa": "متقاضی با افسر USCIS مصاحبه می‌کند. در این مرحله هویت، شرایط پرونده، مذهب و نگرانی از آزار و سایر شرایط مربوط بررسی می‌شود.",
+        "en": "The applicant interviews with the USCIS officer. At this stage of identity, the conditions of the case, religion and concern of harassment and other related conditions are examined."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "بررسی معیار Lautenberg",
+        "en": "Review of the Lautenberg Standard"
+      },
+      "body": {
+        "fa": "در پرونده‌های واجد شرایط، استاندارد اثباتی ویژه Lautenberg در ارزیابی ترس از آزار مورد توجه قرار می‌گیرد. طبق آموزش USCIS، متقاضی واجد شرایط می‌تواند با نشان‌دادن «مبنای قابل‌باور برای نگرانی درباره احتمال آزار» معیار مربوط را برآورده کند.",
+        "en": "In eligible cases, the Lautenberg Special Proof Standard is considered to assess the fear of harassment. According to USCIS training, the qualified applicant can meet the relevant criteria by demonstrating “a reliable basis for concern about the possibility of harassment.”"
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "بررسی‌های تکمیلی",
+        "en": "Graduate reviews."
+      },
+      "body": {
+        "fa": "در صورت نیاز، مدارک یا اطلاعات بیشتری درخواست می‌شود و بررسی‌های امنیتی و اداری ادامه پیدا می‌کند.",
+        "en": "If needed, more documents or information are requested and security and administrative reviews continue."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "تصمیم‌گیری درباره پذیرش",
+        "en": "Decision on admission."
+      },
+      "body": {
+        "fa": "پس از تکمیل مصاحبه و بررسی‌های لازم، درباره واجد شرایط بودن متقاضی برای پذیرش در USRAP تصمیم‌گیری می‌شود.",
+        "en": "After completing the necessary interviews and reviews, it is decided on the eligibility of the applicant for admission to the USRAP."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "معاینات پزشکی",
+        "en": "Medical examinations."
+      },
+      "body": {
+        "fa": "در صورت پیشرفت پرونده، معاینات پزشکی طبق الزامات برنامه انجام می‌شود.",
+        "en": "If the case progresses, medical examinations are conducted according to program requirements."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "آماده‌سازی اسکان مجدد",
+        "en": "Ready for resettlement."
+      },
+      "body": {
+        "fa": "در صورت تأیید، پرونده برای اسکان مجدد در آمریکا آماده می‌شود و هماهنگی‌های مربوط به یک سازمان اسکان‌دهنده انجام می‌گیرد.",
+        "en": "If confirmed, the case is prepared for resettlement in the U.S. and the coordination of a resettlement organization."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحله ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "هماهنگی سفر",
+        "en": "Coordinated travel."
+      },
+      "body": {
+        "fa": "پس از تکمیل مراحل لازم، هماهنگی‌های مربوط به سفر و انتقال به آمریکا انجام می‌شود.",
+        "en": "After completing the necessary steps, the coordination of travel and transfer to the United States is performed."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحله ۱۴",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "ورود و اسکان در آمریکا",
+        "en": "Entry and resettlement in America"
+      },
+      "body": {
+        "fa": "پس از ورود، فرد به‌عنوان پناهنده پذیرفته‌شده وارد روند اسکان مجدد و دریافت خدمات اولیه می‌شود.",
+        "en": "After arrival, the individual is admitted to the resettlement process and receiving primary services."
+      }
+    }
+  ],
+  "notes": []
+}

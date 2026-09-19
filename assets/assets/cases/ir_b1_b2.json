@@ -1,0 +1,243 @@
+{
+  "id": "ir_b1_b2",
+  "icon": "airplane",
+  "color": "#00695C",
+  "kind": "iranian",
+  "name": {
+    "fa": "B-1 / B-2",
+    "en": "B-1 / B-2"
+  },
+  "title": {
+    "fa": "B-1 / B-2 — سفر تجاری و بازدید",
+    "en": "B-1 / B-2 — Business and Visitor Travel"
+  },
+  "description": {
+    "fa": "B-1 / B-2 — سفر تجاری و بازدید\nبرای سفر موقت با هدف مجاز تجاری، گردشگری، دیدار یا هدف مشابه غیرمهاجرتی.",
+    "en": "B-1 / B-2 — Business and Visitor Travel\nFor temporary travel with a permitted business, tourism, family visit, or similar nonimmigrant purpose."
+  },
+  "stepCount": 12,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "B-1 / B-2 — سفر تجاری و بازدید\nبرای سفر موقت با هدف مجاز تجاری، گردشگری، دیدار یا هدف مشابه غیرمهاجرتی.",
+        "en": "B-1 / B-2 — Business and Visitor Travel\nFor temporary travel with a permitted business, tourism, family visit, or similar nonimmigrant purpose."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "آماده‌سازی پرونده",
+        "en": "Preparing the Case"
+      },
+      "body": {
+        "fa": "هدف سفر، برنامه کلی، توانایی مالی، وابستگی‌های خارج از آمریکا و سوابق سفر/مهاجرت بررسی و مدارک پشتیبان مرتب می‌شود.",
+        "en": "The purpose of travel, the general plan, financial capacity, ties outside the U.S., and travel and immigration history are reviewed, and supporting documents are organized."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "آغاز درخواست",
+        "en": "Starting the Application"
+      },
+      "body": {
+        "fa": "درخواست و اطلاعات لازم ثبت می‌شود و متقاضی مسیر کنسولی مناسب را دنبال می‌کند.",
+        "en": "The application and the required information are submitted, and the applicant follows the appropriate consular route."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "تعیین محل و وقت",
+        "en": "Selecting Place and Appointment"
+      },
+      "body": {
+        "fa": "محل رسیدگی طبق مقررات جاری و وضعیت تابعیت/اقامت انتخاب و وقت مصاحبه گرفته می‌شود.",
+        "en": "The place of processing is chosen according to current regulations and citizenship or residence status, and an interview appointment is booked."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "آمادگی مصاحبه",
+        "en": "Interview Preparation"
+      },
+      "body": {
+        "fa": "متقاضی باید بتواند هدف سفر، مدت تقریبی، منبع هزینه‌ها و دلیل بازگشت خود را روشن و صادقانه توضیح دهد.",
+        "en": "The applicant must be able to explain the purpose of travel, approximate duration, source of expenses, and reasons to return clearly and honestly."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "مصاحبه",
+        "en": "Interview"
+      },
+      "body": {
+        "fa": "افسر کنسولی هویت، هدف سفر، شرایط متقاضی و احتمال رعایت شرایط ویزا را بررسی می‌کند.",
+        "en": "The consular officer reviews identity, purpose of travel, the applicant's circumstances, and the likelihood that the visa conditions will be respected."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "بررسی تکمیلی",
+        "en": "Additional Review"
+      },
+      "body": {
+        "fa": "ممکن است مدارک یا توضیحات بیشتر خواسته شود و پرونده وارد بررسی اداری شود.",
+        "en": "Additional documents or explanations may be requested, and the case may enter administrative processing."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "تصمیم",
+        "en": "Decision"
+      },
+      "body": {
+        "fa": "پرونده ممکن است تأیید، نیازمند اقدام بیشتر یا رد شود.",
+        "en": "The case may be approved, require further action, or be denied."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "بعد از تأیید",
+        "en": "After Approval"
+      },
+      "body": {
+        "fa": "در صورت صدور ویزا، اعتبار و شرایط آن باید قبل از سفر بررسی شود.",
+        "en": "If a visa is issued, its validity and conditions must be reviewed before travel."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "ورود",
+        "en": "Entry"
+      },
+      "body": {
+        "fa": "ویزای صادرشده به‌تنهایی تضمین ورود نیست؛ پذیرش نهایی در زمان ورود انجام می‌شود.",
+        "en": "An issued visa by itself does not guarantee entry; final admission takes place at the time of entry."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحلهٔ ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "محدودیت‌ها یا تغییرات سیاستی مربوط به اتباع ایران باید در زمان درخواست بررسی شود.",
+        "en": "Restrictions or policy changes affecting Iranian nationals must be checked at the time of application."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "پرونده ممکن است تأیید، نیازمند اقدام بیشتر یا رد شود.",
+        "en": "The case may be approved, require further action, or be denied."
+      }
+    },
+    {
+      "title": {
+        "fa": "بعد از تأیید",
+        "en": "After Approval"
+      },
+      "body": {
+        "fa": "در صورت صدور ویزا، اعتبار و شرایط آن باید قبل از سفر بررسی شود.",
+        "en": "If a visa is issued, its validity and conditions must be reviewed before travel."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "محدودیت‌ها یا تغییرات سیاستی مربوط به اتباع ایران باید در زمان درخواست بررسی شود.",
+        "en": "Restrictions or policy changes affecting Iranian nationals must be checked at the time of application."
+      }
+    }
+  ]
+}

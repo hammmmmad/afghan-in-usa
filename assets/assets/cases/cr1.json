@@ -1,0 +1,272 @@
+{
+  "id": "cr1",
+  "icon": "rings",
+  "color": "#C2185B",
+  "name": {
+    "fa": "ویزای CR-1 (همسر)",
+    "en": "CR-1 Spouse Visa"
+  },
+  "title": {
+    "fa": "مراحل ویزای CR-1 آمریکا",
+    "en": "US CR-1 visa"
+  },
+  "stepCount": 17,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "بررسی شرایط",
+        "en": "Review of conditions."
+      },
+      "body": {
+        "fa": "همسر خارجی باید با یک شهروند آمریکا یا دارنده گرین‌کارت ازدواج قانونی داشته باشد. ویزای CR-1 معمولاً زمانی مطرح است که ازدواج در زمان ورود مهاجر کمتر از دو سال سابقه داشته باشد.",
+        "en": "A foreign spouse must have legal marriage with a U.S. citizen or a Green Card holder. CR-1 visa is usually considered when marriage is less than two years old when the immigrant arrives."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک",
+        "en": "Preparing evidence."
+      },
+      "body": {
+        "fa": "مدارک هویتی، سند ازدواج، مدارک شهروندی یا اقامت دائم همسر در آمریکا و مدارک اثبات رابطه خانوادگی آماده می‌شود.",
+        "en": "Identity documents, marriage document, citizen documents or permanent resident status in the United States and proof of family relationship."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "ثبت فرم I-130",
+        "en": "Form I-130"
+      },
+      "body": {
+        "fa": "همسر مقیم آمریکا یا شهروند آمریکا، فرم I-130, Petition for Alien Relative را برای همسر خارجی ثبت می‌کند.",
+        "en": "A U.S. resident’s wife or U.S. citizen registers Form I-130, Sign for Alien Relative for a foreign spouse."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "دریافت رسید پرونده",
+        "en": "receipt of the case."
+      },
+      "body": {
+        "fa": "پس از دریافت درخواست، USCIS رسید پرونده را صادر کرده و بررسی پرونده آغاز می‌شود.",
+        "en": "After receiving the application, USCIS issued the case receipt and the case review begins."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "بررسی USCIS",
+        "en": "USCIS review"
+      },
+      "body": {
+        "fa": "USCIS مدارک و واقعی بودن رابطه زناشویی را بررسی می‌کند و در صورت نیاز ممکن است مدارک تکمیلی درخواست کند.",
+        "en": "USCIS investigates the evidence and actuality of the marital relationship and may apply for additional documents if needed."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "تأیید I-130",
+        "en": "I-130"
+      },
+      "body": {
+        "fa": "در صورت تأیید درخواست، پرونده برای ادامه روند مهاجرتی به National Visa Center (NVC) منتقل می‌شود.",
+        "en": "If the application is approved, the case is transferred to National Visa Center (NVC)."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "تشکیل پرونده در NVC",
+        "en": "filing in NVC"
+      },
+      "body": {
+        "fa": "NVC اطلاعات پرونده را دریافت می‌کند و دستورالعمل مربوط به پرداخت هزینه‌ها، فرم‌ها و مدارک مورد نیاز را ارائه می‌دهد.",
+        "en": "NVC receives file information and provides instructions on paying the required fees, forms and documents."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "تکمیل فرم DS-260",
+        "en": "Form DS-260"
+      },
+      "body": {
+        "fa": "همسر خارجی فرم DS-260 را تکمیل و اطلاعات لازم برای درخواست ویزای مهاجرتی را ارائه می‌کند.",
+        "en": "The foreign spouse completes Form DS-260 and provides the necessary information for the immigrant visa application."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "ارائه مدارک مالی",
+        "en": "Provide financial evidence."
+      },
+      "body": {
+        "fa": "اسپانسر باید فرم I-864, Affidavit of Support و مدارک مالی مورد نیاز را ارائه کند.",
+        "en": "The sponsor must submit Form I-864, Affidavit of Support and Financial Evidence Required."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "ارسال مدارک مدنی",
+        "en": "Sending civil documents."
+      },
+      "body": {
+        "fa": "مدارک هویتی، سند ازدواج، مدارک تولد، پاسپورت و سایر مدارک مورد نیاز پرونده به NVC ارائه می‌شود.",
+        "en": "Identity documents, marriage document, birth documents, passports and other documents required by the NVC."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "تکمیل پرونده",
+        "en": "Complete the case."
+      },
+      "body": {
+        "fa": "NVC مدارک و اطلاعات ارائه‌شده را بررسی می‌کند. در صورت کامل بودن پرونده، پرونده برای مصاحبه آماده می‌شود.",
+        "en": "NVC investigates the documents and information provided. If the case is complete, the case is prepared for the interview."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحله ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "معاینات پزشکی",
+        "en": "Medical examinations."
+      },
+      "body": {
+        "fa": "همسر خارجی باید طبق دستورالعمل سفارت، معاینات پزشکی را نزد پزشک مورد تأیید انجام دهد.",
+        "en": "The foreign spouse must conduct medical examinations with the approved doctor according to the Embassy instructions."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحله ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "مصاحبه سفارت",
+        "en": "Interview of the Embassy"
+      },
+      "body": {
+        "fa": "متقاضی در سفارت یا کنسولگری آمریکا حاضر می‌شود و افسر کنسولی مدارک، رابطه خانوادگی و شرایط مهاجرتی را بررسی می‌کند.",
+        "en": "The applicant is present at the U.S. Embassy or consulate, and the consular officer investigates documents, family relationship and immigration conditions."
+      }
+    },
+    {
+      "index": 14,
+      "label": {
+        "fa": "مرحله ۱۴",
+        "en": "Step 14"
+      },
+      "title": {
+        "fa": "بررسی اداری",
+        "en": "administrative review."
+      },
+      "body": {
+        "fa": "در صورت نیاز، پرونده ممکن است وارد Administrative Processing شود و بررسی‌های بیشتری روی آن انجام گیرد.",
+        "en": "If needed, the case may be entered Administrative Processing and further reviews are made."
+      }
+    },
+    {
+      "index": 15,
+      "label": {
+        "fa": "مرحله ۱۵",
+        "en": "Step 15"
+      },
+      "title": {
+        "fa": "صدور ویزای CR-1",
+        "en": "CR-1 visa"
+      },
+      "body": {
+        "fa": "در صورت تأیید نهایی، ویزای CR-1 صادر می‌شود و متقاضی می‌تواند طبق شرایط ویزا به آمریکا سفر کند.",
+        "en": "In case of a final confirmation, the CR-1 visa is issued and the applicant can travel to the United States under visa terms."
+      }
+    },
+    {
+      "index": 16,
+      "label": {
+        "fa": "مرحله ۱۶",
+        "en": "Step 16"
+      },
+      "title": {
+        "fa": "ورود به آمریکا",
+        "en": "Entering America."
+      },
+      "body": {
+        "fa": "پس از ورود به آمریکا، فرد به‌عنوان مقیم دائم مشروط (Conditional Permanent Resident) وارد می‌شود و گرین‌کارت دریافت می‌کند.",
+        "en": "After entering the United States, a person enters as a permanent resident and receives a Green Card."
+      }
+    },
+    {
+      "index": 17,
+      "label": {
+        "fa": "مرحله ۱۷",
+        "en": "Step 17"
+      },
+      "title": {
+        "fa": "حذف شرایط اقامت",
+        "en": "Elimination of Residence Conditions"
+      },
+      "body": {
+        "fa": "پس از نزدیک‌شدن به پایان دوره دو ساله اقامت مشروط، زوج باید طبق قوانین مهاجرتی برای حذف شرایط اقامت اقدام کنند.",
+        "en": "After getting close to the end of the two-year conditional residence period, the couple must act according to the immigration rules to remove the conditions of residence."
+      }
+    }
+  ],
+  "notes": []
+}

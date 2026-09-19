@@ -1,0 +1,248 @@
+{
+  "id": "ir_employment_based",
+  "icon": "card",
+  "color": "#1565C0",
+  "kind": "iranian",
+  "name": {
+    "fa": "EB-1 / EB-2 / EB-3",
+    "en": "Employment Based"
+  },
+  "title": {
+    "fa": "EB-1 / EB-2 / EB-3 — مهاجرت کاری",
+    "en": "EB-1 / EB-2 / EB-3 — Employment-Based Immigration"
+  },
+  "description": {
+    "fa": "EB-1 / EB-2 / EB-3 — مهاجرت کاری\nبرای مسیرهای کاری واجد شرایط؛ بعضی زیرگروه‌ها به کارفرما و مراحل مقدماتی نیاز دارند.",
+    "en": "EB-1 / EB-2 / EB-3 — Employment-Based Immigration\nFor eligible employment-based pathways; some subgroups require an employer and preliminary steps."
+  },
+  "stepCount": 13,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحلهٔ ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "شناخت مسیر و هدف",
+        "en": "Understanding the Pathway and Goal"
+      },
+      "body": {
+        "fa": "EB-1 / EB-2 / EB-3 — مهاجرت کاری\nبرای مسیرهای کاری واجد شرایط؛ بعضی زیرگروه‌ها به کارفرما و مراحل مقدماتی نیاز دارند.",
+        "en": "EB-1 / EB-2 / EB-3 — Employment-Based Immigration\nFor eligible employment-based pathways; some subgroups require an employer and preliminary steps."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحلهٔ ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "بررسی اولیه شرایط",
+        "en": "Initial Eligibility Review"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحلهٔ ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "تعیین دسته",
+        "en": "Determining the Category"
+      },
+      "body": {
+        "fa": "بررسی شود که تخصص، تحصیلات، سابقه و شغل با کدام دسته سازگار است.",
+        "en": "It should be assessed which category matches the person's expertise, education, experience, and occupation."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحلهٔ ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "کارفرما یا مسیر مستقل",
+        "en": "Employer or Independent Route"
+      },
+      "body": {
+        "fa": "در صورت نیاز کارفرما پرونده را آغاز می‌کند؛ بعضی مسیرها ساختار متفاوت دارند.",
+        "en": "If required, the employer initiates the case; some pathways have a different structure."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحلهٔ ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "بررسی اولیه",
+        "en": "Initial Review"
+      },
+      "body": {
+        "fa": "صلاحیت و شواهد بررسی می‌شود.",
+        "en": "Eligibility and evidence are reviewed."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحلهٔ ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "تاریخ اولویت",
+        "en": "Priority Date"
+      },
+      "body": {
+        "fa": "در مسیرهای سهمیه‌ای تاریخ اولویت پیگیری می‌شود.",
+        "en": "In routes with numerical limits, the priority date is tracked."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحلهٔ ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "رسیدن نوبت",
+        "en": "Waiting for the Turn"
+      },
+      "body": {
+        "fa": "پس از قابل استفاده شدن شماره ویزا، مرحله نهایی آغاز می‌شود.",
+        "en": "Once a visa number becomes available, the final stage begins."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحلهٔ ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "تکمیل کنسولی",
+        "en": "Consular Completion"
+      },
+      "body": {
+        "fa": "مدارک و اطلاعات تکمیل و وقت مصاحبه تعیین می‌شود.",
+        "en": "Documents and information are completed, and an interview appointment is scheduled."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحلهٔ ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "پزشکی و مصاحبه",
+        "en": "Medical Exam and Interview"
+      },
+      "body": {
+        "fa": "معاینه پزشکی و مصاحبه انجام می‌شود.",
+        "en": "A medical examination and an interview take place."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحلهٔ ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "بررسی اداری",
+        "en": "Administrative Processing"
+      },
+      "body": {
+        "fa": "در صورت نیاز ادامه بررسی انجام می‌شود.",
+        "en": "Further review is conducted if needed."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحلهٔ ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "تصمیم و صدور",
+        "en": "Decision and Issuance"
+      },
+      "body": {
+        "fa": "در صورت تأیید و وجود امکان قانونی، ویزا صادر می‌شود.",
+        "en": "If approved and legally available, a visa is issued."
+      }
+    },
+    {
+      "index": 12,
+      "label": {
+        "fa": "مرحلهٔ ۱۲",
+        "en": "Step 12"
+      },
+      "title": {
+        "fa": "سفر و ورود",
+        "en": "Travel and Entry"
+      },
+      "body": {
+        "fa": "پس از پذیرش، وضعیت اقامت دائم طبق مقررات اعمال می‌شود.",
+        "en": "After admission, permanent resident status takes effect under the regulations."
+      }
+    },
+    {
+      "index": 13,
+      "label": {
+        "fa": "مرحلهٔ ۱۳",
+        "en": "Step 13"
+      },
+      "title": {
+        "fa": "نکته پایانی",
+        "en": "Final Note"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "fa": "شرایط کلی",
+        "en": "Eligibility"
+      },
+      "body": {
+        "fa": "متقاضی باید شرایط اصلی مسیر، هدف سفر یا مهاجرت، وضعیت خانوادگی/کاری/تحصیلی و هر محدودیت قانونی مرتبط را بررسی کند. اطلاعات باید واقعی، کامل و با سوابق قبلی سازگار باشد.",
+        "en": "The applicant must review the main requirements of the pathway, the purpose of travel or immigration, family, work, and study circumstances, and any related legal restrictions. Information must be truthful, complete, and consistent with previous records."
+      }
+    },
+    {
+      "title": {
+        "fa": "تصمیم نهایی",
+        "en": "Final Decision"
+      },
+      "body": {
+        "fa": "در صورت تأیید و وجود امکان قانونی، ویزا صادر می‌شود.",
+        "en": "If approved and legally available, a visa is issued."
+      }
+    },
+    {
+      "title": {
+        "fa": "نکات ویژه ایران",
+        "en": "Iran-Specific Notes"
+      },
+      "body": {
+        "fa": "برای اتباع ایران، وضعیت جاری صدور و پردازش باید در زمان اقدام جداگانه بررسی شود.",
+        "en": "For Iranian nationals, the current status of issuance and processing must be checked separately at the time of applying."
+      }
+    }
+  ]
+}

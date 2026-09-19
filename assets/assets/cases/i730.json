@@ -1,0 +1,182 @@
+{
+  "id": "i730",
+  "icon": "family",
+  "color": "#00897B",
+  "name": {
+    "fa": "I-730 (پیوستن خانواده)",
+    "en": "I-730 (Family Reunification)"
+  },
+  "title": {
+    "fa": "مراحل برنامه I-730",
+    "en": "I-730 Program"
+  },
+  "stepCount": 11,
+  "steps": [
+    {
+      "index": 1,
+      "label": {
+        "fa": "مرحله ۱",
+        "en": "Step 1"
+      },
+      "title": {
+        "fa": "داشتن وضعیت پناهندگی یا پناهندگی اعطا‌شده",
+        "en": "Have a refugee or asylum status granted."
+      },
+      "body": {
+        "fa": "فرد اصلی باید در آمریکا دارای وضعیت Refugee یا Asylee باشد و شرایط لازم برای درخواست پیوستن اعضای واجد شرایط خانواده را داشته باشد.",
+        "en": "The main person must have a refugee status in the United States or Asylee, and have the requirements to apply for family members."
+      }
+    },
+    {
+      "index": 2,
+      "label": {
+        "fa": "مرحله ۲",
+        "en": "Step 2"
+      },
+      "title": {
+        "fa": "آماده‌سازی مدارک",
+        "en": "Preparing evidence."
+      },
+      "body": {
+        "fa": "مدارک هویتی، مدارک رابطه خانوادگی، مدارک وضعیت پناهندگی یا پناهندگی اعطا‌شده و سایر اسناد مورد نیاز آماده می‌شود.",
+        "en": "Identity documents, family relationship documents, asylum status documents or asylum status documents are awarded and other documents are prepared."
+      }
+    },
+    {
+      "index": 3,
+      "label": {
+        "fa": "مرحله ۳",
+        "en": "Step 3"
+      },
+      "title": {
+        "fa": "ثبت فرم I-730",
+        "en": "Form I-730"
+      },
+      "body": {
+        "fa": "فرد اصلی، یعنی Refugee یا Asylee، فرم Form I-730, Refugee/Asylee Relative Petition را برای عضو واجد شرایط خانواده ثبت می‌کند.",
+        "en": "The main person, Refugee or Asylee, forms Form I-730, Refugees/Asylee Relative Signatures for a qualified family member."
+      }
+    },
+    {
+      "index": 4,
+      "label": {
+        "fa": "مرحله ۴",
+        "en": "Step 4"
+      },
+      "title": {
+        "fa": "بررسی پرونده توسط USCIS",
+        "en": "Case review by USCIS"
+      },
+      "body": {
+        "fa": "USCIS درخواست را دریافت و بررسی می‌کند. ممکن است برای تکمیل پرونده یا ارائه مدارک بیشتر، درخواست RFE صادر شود.",
+        "en": "USCIS receives and investigates the request. It may be issued to complete the case or to provide additional documents."
+      }
+    },
+    {
+      "index": 5,
+      "label": {
+        "fa": "مرحله ۵",
+        "en": "Step 5"
+      },
+      "title": {
+        "fa": "تصمیم USCIS",
+        "en": "USCIS decision"
+      },
+      "body": {
+        "fa": "پس از بررسی، USCIS درباره درخواست I-730 تصمیم می‌گیرد. در صورت تأیید، پرونده برای ادامه روند به مرجع مربوط منتقل می‌شود.",
+        "en": "After the review, USCIS decides on the I-730 request. If confirmed, the case is transferred to the relevant reference to continue the process."
+      }
+    },
+    {
+      "index": 6,
+      "label": {
+        "fa": "مرحله ۶",
+        "en": "Step 6"
+      },
+      "title": {
+        "fa": "ادامه روند در خارج از آمریکا",
+        "en": "Continue outside of America."
+      },
+      "body": {
+        "fa": "اگر عضو خانواده خارج از آمریکا باشد، پس از تأیید I-730، پرونده برای انجام مراحل مربوط به ورود و بررسی‌های لازم به نهاد یا نمایندگی مربوط ارجاع می‌شود.",
+        "en": "If a family member is outside the United States, after I-730 approval, the case is referenced to the entry and examinations required to the institution or representative."
+      }
+    },
+    {
+      "index": 7,
+      "label": {
+        "fa": "مرحله ۷",
+        "en": "Step 7"
+      },
+      "title": {
+        "fa": "بررسی‌های امنیتی و اداری",
+        "en": "Security and administrative reviews."
+      },
+      "body": {
+        "fa": "عضو خانواده ممکن است تحت بررسی‌های امنیتی، بیومتریک و اداری قرار گیرد.",
+        "en": "A family member may be subject to security, biometric and administrative reviews."
+      }
+    },
+    {
+      "index": 8,
+      "label": {
+        "fa": "مرحله ۸",
+        "en": "Step 8"
+      },
+      "title": {
+        "fa": "مصاحبه",
+        "en": "Interview interview."
+      },
+      "body": {
+        "fa": "در صورت نیاز، عضو خانواده برای مصاحبه در محل تعیین‌شده دعوت می‌شود و اطلاعات و مدارک پرونده بررسی می‌گردد.",
+        "en": "If needed, the family member is invited for an interview at the location and the information and documents of the case are reviewed."
+      }
+    },
+    {
+      "index": 9,
+      "label": {
+        "fa": "مرحله ۹",
+        "en": "Step 9"
+      },
+      "title": {
+        "fa": "معاینات پزشکی",
+        "en": "Medical examinations."
+      },
+      "body": {
+        "fa": "در صورت لزوم، معاینات پزشکی طبق دستورالعمل مربوط انجام می‌شود.",
+        "en": "If necessary, medical examinations are performed according to relevant instructions."
+      }
+    },
+    {
+      "index": 10,
+      "label": {
+        "fa": "مرحله ۱۰",
+        "en": "Step 10"
+      },
+      "title": {
+        "fa": "صدور مجوز سفر یا ورود",
+        "en": "Travel permit or entry"
+      },
+      "body": {
+        "fa": "پس از تکمیل بررسی‌ها و تأیید نهایی، اقدامات لازم برای سفر عضو خانواده به آمریکا انجام می‌شود.",
+        "en": "After completing the final review and approval, the necessary measures for family member travel to the United States are taken."
+      }
+    },
+    {
+      "index": 11,
+      "label": {
+        "fa": "مرحله ۱۱",
+        "en": "Step 11"
+      },
+      "title": {
+        "fa": "ورود به آمریکا",
+        "en": "Entering America."
+      },
+      "body": {
+        "fa": "عضو خانواده پس از دریافت مجوزهای لازم وارد آمریکا می‌شود و روند پیوستن به فرد اصلی تکمیل می‌گردد.",
+        "en": "The family member enters the U.S. after receiving necessary permits and the process of joining the main person is completed."
+      }
+    }
+  ],
+  "notes": []
+}
